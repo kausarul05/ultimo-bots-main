@@ -1,8 +1,17 @@
+import { HeroSection } from "@/components/marketing/HeroSection";
+
+
 export default function Home() {
   return (
     <div className="p-8">
-      <h1 className="text-2xl font-bold text-white">Main Content Area</h1>
-      <p className="text-[#999999] mt-2">Your content goes here</p>
+      {/* Here section  */}
+      <HeroSection
+        title="Add a Custom AI Chatbot to Your "
+        titleHighlight="Website"
+        description="Your AI agent answers instantly, captures leads, and integrates in 5 minutes. No coding required."
+        variant="split"
+        videoSrc="../videos/hero.webm"
+      />
     </div>
   );
 }
