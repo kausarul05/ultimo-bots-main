@@ -74,18 +74,19 @@ export function FeaturesSection({
             <div className="container px-4 md:px-6">
                 {/* Header */}
                 <div className={cn(
-                    "mb-12 md:mb-16",
+                    "mb-6 md:mb-6",
                     variant === "centered" ? "text-center mx-auto" : ""
                 )}>
                     {/* Small label */}
-                    <div className="mb-4">
-                        <span className="text-sm font-medium tracking-wider uppercase text-[#5e1bff]">
+                    <div className="mb-5">
+                        <span className="text-sm font-medium tracking-wider uppercase text-[#5e1bff] bg-[#f3efff] border border-[#eee8ff] px-2 py-1 rounded-full">
+                            <span className="w-[15px] h-[5px] bg-[#5e1bff] border rounded-full p-1"></span>
                             {title}
                         </span>
                     </div>
 
                     {/* Main title */}
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1d1d1f] mb-4 max-w-3xl">
+                    <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-[#1d1d1f] mb-4 tracking-wide">
                         {subtitle}
                     </h2>
 
@@ -107,7 +108,7 @@ export function FeaturesSection({
                                 className="group relative"
                             >
                                 {/* Card with Image */}
-                                <div className="relative h-full p-8 bg-white rounded-2xl border border-gray-100 hover:border-transparent transition-all duration-300 hover:shadow-xl hover:shadow-[#4510b0]/5">
+                                <div className="relative h-full bg-white rounded-2xl border border-gray-100 hover:border-transparent transition-all duration-300 hover:shadow-xl hover:shadow-[#4510b0]/5 shadow">
 
                                     {/* Image Container - Replacing the icon */}
                                     <div className="mb-6 h-40 w-full relative">
@@ -118,11 +119,11 @@ export function FeaturesSection({
                                                 alt={feature.imageAlt || feature.title}
                                                 fill
                                                 className="object-contain"
-                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                sizes=""
                                             />
 
                                             {/* Fallback if image doesn't exist - shows colored background with title initial */}
-                                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10 rounded-xl">
+                                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10">
                                                 <span className="text-4xl font-bold text-[#4510b0] opacity-50">
                                                     {feature.title.charAt(0)}
                                                 </span>
@@ -130,45 +131,23 @@ export function FeaturesSection({
                                         </div>
                                     </div>
 
-                                    {/* Content */}
-                                    <h3 className="text-xl font-bold text-[#1d1d1f] mb-3 group-hover:text-[#4510b0] transition-colors">
-                                        {feature.title}
-                                    </h3>
+                                    <div className="p-3">
+                                        {/* Content */}
+                                        <h3 className="text-xl font-bold text-[#1d1d1f] mb-3 group-hover:text-[#4510b0] transition-colors">
+                                            {feature.title}
+                                        </h3>
 
-                                    <p className="text-[#5a5a5a] leading-relaxed">
-                                        {feature.description}
-                                    </p>
+                                        <p className="text-[#5a5a5a] leading-relaxed">
+                                            {feature.description}
+                                        </p>
 
-                                    {/* Decorative gradient line on hover */}
-                                    <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gradient-to-r from-[#4510b0] to-[#5e1bff] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                                        {/* Decorative gradient line on hover */}
+                                        <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gradient-to-r from-[#4510b0] to-[#5e1bff] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                                    </div>
                                 </div>
                             </div>
                         );
                     })}
-                </div>
-
-                {/* Stats/Highlights - Like in your image with AI, G, S badges */}
-                <div className="mt-16 pt-8 border-t border-gray-100">
-                    <div className="flex flex-wrap items-center justify-center gap-8">
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10 flex items-center justify-center">
-                                <Brain className="w-5 h-5 text-[#4510b0]" />
-                            </div>
-                            <span className="text-sm font-medium text-[#1d1d1f]">AI Powered</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10 flex items-center justify-center">
-                                <Gauge className="w-5 h-5 text-[#4510b0]" />
-                            </div>
-                            <span className="text-sm font-medium text-[#1d1d1f]">GDPR Compliant</span>
-                        </div>
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10 flex items-center justify-center">
-                                <Lock className="w-5 h-5 text-[#4510b0]" />
-                            </div>
-                            <span className="text-sm font-medium text-[#1d1d1f]">Swiss Hosted</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
