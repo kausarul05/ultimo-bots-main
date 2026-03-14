@@ -105,6 +105,7 @@ export default function Home() {
                     }
                 ]}
                 mediaPosition="left"
+                button={true}
             />
 
             {/* TestimonialsSection */}

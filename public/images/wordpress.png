@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://ultimo-bots.com/apps/wordpress -->
+<html lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1" data-next-head=""><meta property="og:site_name" content="Ultimo Bots" data-next-head=""><link rel="icon" href="https://ultimo-bots.com/favicon.ico" data-next-head=""><link rel="apple-touch-icon" href="https://ultimo-bots.com/apple-touch-icon.png" data-next-head=""><link rel="manifest" href="https://ultimo-bots.com/manifest.json" data-next-head=""><title data-next-head=""></title><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous"><link rel="preload" href="https://ultimo-bots.com/_next/static/media/13971731025ec697-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"><link rel="preload" href="./wordpress_files/95e6b1cdb515c10e.css" as="style"><link rel="preload" href="https://ultimo-bots.com/_next/static/css/4b57a06a30f7f951.css" as="style"><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-white.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-white.webp&amp;w=384&amp;q=75 2x" data-next-head=""><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-purple.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-purple.webp&amp;w=384&amp;q=75 2x" data-next-head=""><link rel="stylesheet" href="./wordpress_files/95e6b1cdb515c10e.css" data-n-g=""><noscript data-n-css=""></noscript><style data-n-href="/_next/static/css/62a9a556f126e6c6.css">.SecurityBlock_section__huNZo{--purple:#5e1bff;--text:#1d1d1f;--muted:#5a5a5a;background:linear-gradient(180deg,#fbfaff,#ffffff 60%);color:var(--text);font-family:DM Sans,sans-serif;padding:44px 20px 40px}.SecurityBlock_wrap__EK7qn{max-width:1200px;margin:0 auto}.SecurityBlock_pill__gi6zv{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:700;color:var(--text);background:#f3efff;border:1px solid #eee8ff;border-radius:999px;padding:6px 12px;margin-bottom:12px}.SecurityBlock_pill__gi6zv:before{content:"";width:8px;height:8px;border-radius:50%;background:#5e1bff}.SecurityBlock_grid___gf7J{display:grid;gap:28px;align-items:start}@media(min-width:980px){.SecurityBlock_grid___gf7J{grid-template-columns:1fr 1fr}}.SecurityBlock_headerArea__V_HBg{max-width:620px}.SecurityBlock_title__7kXK3{margin:0 0 8px;font-size:2.6rem;line-height:1.15;font-weight:700}.SecurityBlock_sub__up_yu{margin:0 0 16px;color:var(--muted);font-size:1.05rem}.SecurityBlock_badges__bBSWl{display:flex;gap:16px;align-items:center}.SecurityBlock_badge__GCh32{width:84px;height:84px;border-radius:12px;background:#fff;border:1px solid #eee8ff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.05)}.SecurityBlock_cards__PHPRE{border:1px solid #eee8ff;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.05);max-width:720px;justify-self:stretch}@media(min-width:980px){.SecurityBlock_cards__PHPRE{justify-self:end}}.SecurityBlock_card__Kh_kq{display:flex;align-items:flex-start;gap:14px;padding:18px;border-top:1px solid #f1ecff}.SecurityBlock_card__Kh_kq:first-child{border-top:none}.SecurityBlock_icon__H6Ovw{width:44px;height:44px;border-radius:12px;background:#efe9ff;color:#5e1bff;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex:0 0 auto}.SecurityBlock_cardText__WYAA9{display:flex;flex-direction:column;gap:6px}.SecurityBlock_cardTitle__a2hFR{margin:0;font-weight:600;font-size:1.15rem}.SecurityBlock_cardSub__TXekG{margin:0;color:#454545;font-size:.98rem}.SecurityBlock_footerNote__2XJcl{display:flex;align-items:center;gap:12px;margin-top:26px;padding-top:16px;border-top:1px solid #eee;color:#3e3e3e;font-weight:600}.SecurityBlock_dot__d39Wi{width:18px;height:18px;border-radius:50%;background:#5e1bff;box-shadow:0 0 0 4px #5e1bff1a;flex:0 0 auto}.SecurityBlock_more__b6FMN{margin-left:auto;color:#5e1bff;font-weight:800;text-decoration:none}.SecurityBlock_more__b6FMN:hover{text-decoration:underline}@media(max-width:720px){.SecurityBlock_title__7kXK3{font-size:2.2rem}.SecurityBlock_cards__PHPRE{max-width:100%}}.BottomCTA_section__9yXMq{font-family:DM Sans,sans-serif;padding:24px 16px 40px;background:transparent}.BottomCTA_panel__F2_uJ{background:linear-gradient(135deg,#4510b0,#5e1bff);border-radius:24px;max-width:1200px;margin:0 auto;padding:56px 16px}.BottomCTA_inner__xkAjD{max-width:960px;margin:0 auto;text-align:center;color:#ffffff}.BottomCTA_title__pJBLe{margin:0 0 12px;font-weight:700;font-size:2.6rem;line-height:1.1;letter-spacing:-.01em;color:#ffffff}.BottomCTA_sub__83O8H{margin:0 auto 22px;max-width:820px;color:#ffffff;opacity:.9;font-size:1.1rem;line-height:1.5}.BottomCTA_actions__H3uiE{display:flex;justify-content:center}.BottomCTA_cta__dxKSb{background:#ffffff;color:#5e1bff;border:none;border-radius:12px;padding:12px 22px;font-weight:700;cursor:pointer;box-shadow:none;transition:opacity .3s ease,transform .3s ease;font-size:18px;text-decoration:none}.BottomCTA_cta__dxKSb:hover{opacity:.85;transform:translateY(-2px)}.BottomCTA_cta__dxKSb:active{transform:translateY(1px)}@media (max-width:980px){.BottomCTA_title__pJBLe{font-size:2.2rem}.BottomCTA_sub__83O8H{font-size:1.02rem}.BottomCTA_panel__F2_uJ{padding:44px 14px}}.TestimonialsGrid_section__V1lv1{--purple:#5e1bff;--text:#101014;--muted:#5a5a5a;--card:#ffffff;--line:#eee8ff;--glow:rgba(94,27,255,.12);background:linear-gradient(180deg,#fbfaff,#ffffff 60%);color:var(--text);font-family:DM Sans,sans-serif;padding:44px 20px 64px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}.TestimonialsGrid_wrap__Vgt1u{max-width:1200px;margin:0 auto}.TestimonialsGrid_pill__69o_K{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:700;color:var(--text);background:#f3efff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin-bottom:10px}.TestimonialsGrid_pill__69o_K:before{content:"";width:8px;height:8px;border-radius:50%;background:#5e1bff}.TestimonialsGrid_header__9l0kF{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:18px}.TestimonialsGrid_title__UVxu_{margin:0 0 6px;font-size:2.6rem;font-weight:700}.TestimonialsGrid_sub__Cysh9{margin:0;color:var(--muted);font-size:1.05rem;max-width:720px}.TestimonialsGrid_sliderWrapper__21mwZ{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0;scroll-padding-left:20px;scroll-padding-right:20px}.TestimonialsGrid_grid__Bh9ze{display:grid;gap:18px;grid-template-columns:1fr;max-width:1100px;margin:0 auto;text-align:left}@media(min-width:900px){.TestimonialsGrid_sliderWrapper__21mwZ{overflow:visible;scroll-snap-type:none;padding:0;scroll-padding-left:0;scroll-padding-right:0}.TestimonialsGrid_grid__Bh9ze{grid-template-columns:repeat(3,1fr);grid-template-areas:"statBusinesses boxA boxB" "boxC boxD statCountries"}}.TestimonialsGrid_card__fA_ub{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 12px 15px rgba(16,16,20,.06);display:flex;flex-direction:column;justify-content:space-between;transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s cubic-bezier(.2,.8,.2,1),border-color .28s;overflow:hidden;isolation:isolate;box-sizing:border-box}.TestimonialsGrid_card__fA_ub:before{content:"“";position:absolute;top:10px;left:16px;font-size:56px;line-height:1;color:#5e1bff;opacity:.7;pointer-events:none;transform:translateY(-6px)}.TestimonialsGrid_boxA__D8UIJ{grid-area:boxA}.TestimonialsGrid_boxB__iKvoB{grid-area:boxB}.TestimonialsGrid_boxC__2281x{grid-area:boxC}.TestimonialsGrid_boxD__mKoru{grid-area:boxD}.TestimonialsGrid_statCountries__dHZ6X{grid-area:statCountries}.TestimonialsGrid_statBusinesses__UpRjv{grid-area:statBusinesses}.TestimonialsGrid_quote__3pX9x{margin:10px 4px 18px;font-size:1.08rem;line-height:1.45;color:#202028}.TestimonialsGrid_meta__VN6_H{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.TestimonialsGrid_person__mpBkh{display:flex;flex-direction:column}.TestimonialsGrid_name__b1rPK{font-weight:900;color:#1b1b20;letter-spacing:.1px}.TestimonialsGrid_role__u9blK{color:#7a7a7a;font-size:.92rem}.TestimonialsGrid_linkBtn__7RZNo{background:linear-gradient(180deg,#ffffff,#f7f5ff);color:var(--purple);border:1px solid var(--purple);border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s ease;box-shadow:0 6px 18px var(--glow);white-space:nowrap}@media (hover:hover){.TestimonialsGrid_linkBtn__7RZNo:hover{transform:translateY(-1px);background:#f3efff;box-shadow:0 10px 26px var(--glow)}.TestimonialsGrid_card__fA_ub:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(16,16,20,.09);border-color:#e7defe}}.TestimonialsGrid_linkBtn__7RZNo:active{transform:translateY(0)}.TestimonialsGrid_stat__Ewzzw{padding:0;overflow:hidden;display:flex;flex-direction:column}.TestimonialsGrid_stat__Ewzzw:before{content:"";position:absolute;inset:-1px;border-radius:20px;background:conic-gradient(from 180deg at 50% 0,rgba(94,27,255,.12),rgba(130,103,193,.08),rgba(238,229,255,.1),rgba(94,27,255,.12));filter:blur(18px);opacity:.3;z-index:-1}.TestimonialsGrid_statTopAlt__ahCh3{position:relative;height:140px;background:linear-gradient(135deg,#e6f0ff,#efe8ff);overflow:hidden}.TestimonialsGrid_statTopAlt__ahCh3:before{content:"";position:absolute;width:160px;height:160px;right:-18px;top:-30px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.7) 0,rgba(255,255,255,0) 55%),repeating-conic-gradient(from 0deg,rgba(94,27,255,.18) 0 7deg,rgba(94,27,255,0) 7deg 18deg),radial-gradient(circle at 50% 50%,rgba(94,27,255,.14) 0 60%,rgba(94,27,255,0) 61%);box-shadow:0 20px 40px rgba(94,27,255,.12)}.TestimonialsGrid_statTop__KD2Gh{position:relative;height:140px;background:radial-gradient(120% 120% at 0 0,#faf7ff 0,rgba(250,247,255,0) 60%),linear-gradient(180deg,#ffffff,#f6f2ff);border-bottom:1px solid var(--line)}.TestimonialsGrid_statTop__KD2Gh:before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 12px 12px,rgba(94,27,255,.6) 1px,transparent 1.5px);background-size:24px 24px;opacity:.6}.TestimonialsGrid_statTop__KD2Gh:after{content:"";position:absolute;right:16px;top:16px;width:42px;height:8px;border-radius:999px;background:#5e1bff;box-shadow:0 0 0 6px rgba(94,27,255,.1)}.TestimonialsGrid_statBody__ZA2v4{padding:18px 20px 22px}.TestimonialsGrid_statNumber__aT9Zs{font-size:3.2rem;font-weight:900;color:#5e1bff}.TestimonialsGrid_statLabel__na5ih{color:#343434;font-size:1rem;font-weight:800}.TestimonialsGrid_indicators__nDq9g{display:flex;justify-content:center;gap:14px;margin-top:16px}.TestimonialsGrid_indicator__CG96J{width:40px;height:8px;border:1px solid #c3c3c3;border-radius:8px;background:transparent}.TestimonialsGrid_active__eqiam{background:#5e1bff;border-color:#5e1bff}@media(max-width:900px){.TestimonialsGrid_grid__Bh9ze{display:flex;gap:18px;width:100%;margin:0;scroll-snap-type:x mandatory;padding:0 20px;box-sizing:border-box}.TestimonialsGrid_card__fA_ub{flex:0 0 100%;max-width:100%;scroll-snap-align:center;box-shadow:0 12px 15px rgba(16,16,20,0)}}@media(min-width:900px){.TestimonialsGrid_indicators__nDq9g{display:none}}@media(max-width:720px){.TestimonialsGrid_title__UVxu_{font-size:2.2rem}.TestimonialsGrid_card__fA_ub{padding:18px}.TestimonialsGrid_quote__3pX9x{font-size:1.02rem}.TestimonialsGrid_statTopAlt__ahCh3,.TestimonialsGrid_statTop__KD2Gh{height:120px}}</style><style data-n-href="/_next/static/css/59f31e38767432c6.css" media="x">.TestimonialsGrid_section__V1lv1{--purple:#5e1bff;--text:#101014;--muted:#5a5a5a;--card:#ffffff;--line:#eee8ff;--glow:rgba(94,27,255,.12);background:linear-gradient(180deg,#fbfaff,#ffffff 60%);color:var(--text);font-family:DM Sans,sans-serif;padding:44px 20px 64px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}.TestimonialsGrid_wrap__Vgt1u{max-width:1200px;margin:0 auto}.TestimonialsGrid_pill__69o_K{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:700;color:var(--text);background:#f3efff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin-bottom:10px}.TestimonialsGrid_pill__69o_K:before{content:"";width:8px;height:8px;border-radius:50%;background:#5e1bff}.TestimonialsGrid_header__9l0kF{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:18px}.TestimonialsGrid_title__UVxu_{margin:0 0 6px;font-size:2.6rem;font-weight:700}.TestimonialsGrid_sub__Cysh9{margin:0;color:var(--muted);font-size:1.05rem;max-width:720px}.TestimonialsGrid_sliderWrapper__21mwZ{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0;scroll-padding-left:20px;scroll-padding-right:20px}.TestimonialsGrid_grid__Bh9ze{display:grid;gap:18px;grid-template-columns:1fr;max-width:1100px;margin:0 auto;text-align:left}@media(min-width:900px){.TestimonialsGrid_sliderWrapper__21mwZ{overflow:visible;scroll-snap-type:none;padding:0;scroll-padding-left:0;scroll-padding-right:0}.TestimonialsGrid_grid__Bh9ze{grid-template-columns:repeat(3,1fr);grid-template-areas:"statBusinesses boxA boxB" "boxC boxD statCountries"}}.TestimonialsGrid_card__fA_ub{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 12px 15px rgba(16,16,20,.06);display:flex;flex-direction:column;justify-content:space-between;transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s cubic-bezier(.2,.8,.2,1),border-color .28s;overflow:hidden;isolation:isolate;box-sizing:border-box}.TestimonialsGrid_card__fA_ub:before{content:"“";position:absolute;top:10px;left:16px;font-size:56px;line-height:1;color:#5e1bff;opacity:.7;pointer-events:none;transform:translateY(-6px)}.TestimonialsGrid_boxA__D8UIJ{grid-area:boxA}.TestimonialsGrid_boxB__iKvoB{grid-area:boxB}.TestimonialsGrid_boxC__2281x{grid-area:boxC}.TestimonialsGrid_boxD__mKoru{grid-area:boxD}.TestimonialsGrid_statCountries__dHZ6X{grid-area:statCountries}.TestimonialsGrid_statBusinesses__UpRjv{grid-area:statBusinesses}.TestimonialsGrid_quote__3pX9x{margin:10px 4px 18px;font-size:1.08rem;line-height:1.45;color:#202028}.TestimonialsGrid_meta__VN6_H{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.TestimonialsGrid_person__mpBkh{display:flex;flex-direction:column}.TestimonialsGrid_name__b1rPK{font-weight:900;color:#1b1b20;letter-spacing:.1px}.TestimonialsGrid_role__u9blK{color:#7a7a7a;font-size:.92rem}.TestimonialsGrid_linkBtn__7RZNo{background:linear-gradient(180deg,#ffffff,#f7f5ff);color:var(--purple);border:1px solid var(--purple);border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s ease;box-shadow:0 6px 18px var(--glow);white-space:nowrap}@media (hover:hover){.TestimonialsGrid_linkBtn__7RZNo:hover{transform:translateY(-1px);background:#f3efff;box-shadow:0 10px 26px var(--glow)}.TestimonialsGrid_card__fA_ub:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(16,16,20,.09);border-color:#e7defe}}.TestimonialsGrid_linkBtn__7RZNo:active{transform:translateY(0)}.TestimonialsGrid_stat__Ewzzw{padding:0;overflow:hidden;display:flex;flex-direction:column}.TestimonialsGrid_stat__Ewzzw:before{content:"";position:absolute;inset:-1px;border-radius:20px;background:conic-gradient(from 180deg at 50% 0,rgba(94,27,255,.12),rgba(130,103,193,.08),rgba(238,229,255,.1),rgba(94,27,255,.12));filter:blur(18px);opacity:.3;z-index:-1}.TestimonialsGrid_statTopAlt__ahCh3{position:relative;height:140px;background:linear-gradient(135deg,#e6f0ff,#efe8ff);overflow:hidden}.TestimonialsGrid_statTopAlt__ahCh3:before{content:"";position:absolute;width:160px;height:160px;right:-18px;top:-30px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.7) 0,rgba(255,255,255,0) 55%),repeating-conic-gradient(from 0deg,rgba(94,27,255,.18) 0 7deg,rgba(94,27,255,0) 7deg 18deg),radial-gradient(circle at 50% 50%,rgba(94,27,255,.14) 0 60%,rgba(94,27,255,0) 61%);box-shadow:0 20px 40px rgba(94,27,255,.12)}.TestimonialsGrid_statTop__KD2Gh{position:relative;height:140px;background:radial-gradient(120% 120% at 0 0,#faf7ff 0,rgba(250,247,255,0) 60%),linear-gradient(180deg,#ffffff,#f6f2ff);border-bottom:1px solid var(--line)}.TestimonialsGrid_statTop__KD2Gh:before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 12px 12px,rgba(94,27,255,.6) 1px,transparent 1.5px);background-size:24px 24px;opacity:.6}.TestimonialsGrid_statTop__KD2Gh:after{content:"";position:absolute;right:16px;top:16px;width:42px;height:8px;border-radius:999px;background:#5e1bff;box-shadow:0 0 0 6px rgba(94,27,255,.1)}.TestimonialsGrid_statBody__ZA2v4{padding:18px 20px 22px}.TestimonialsGrid_statNumber__aT9Zs{font-size:3.2rem;font-weight:900;color:#5e1bff}.TestimonialsGrid_statLabel__na5ih{color:#343434;font-size:1rem;font-weight:800}.TestimonialsGrid_indicators__nDq9g{display:flex;justify-content:center;gap:14px;margin-top:16px}.TestimonialsGrid_indicator__CG96J{width:40px;height:8px;border:1px solid #c3c3c3;border-radius:8px;background:transparent}.TestimonialsGrid_active__eqiam{background:#5e1bff;border-color:#5e1bff}@media(max-width:900px){.TestimonialsGrid_grid__Bh9ze{display:flex;gap:18px;width:100%;margin:0;scroll-snap-type:x mandatory;padding:0 20px;box-sizing:border-box}.TestimonialsGrid_card__fA_ub{flex:0 0 100%;max-width:100%;scroll-snap-align:center;box-shadow:0 12px 15px rgba(16,16,20,0)}}@media(min-width:900px){.TestimonialsGrid_indicators__nDq9g{display:none}}@media(max-width:720px){.TestimonialsGrid_title__UVxu_{font-size:2.2rem}.TestimonialsGrid_card__fA_ub{padding:18px}.TestimonialsGrid_quote__3pX9x{font-size:1.02rem}.TestimonialsGrid_statTopAlt__ahCh3,.TestimonialsGrid_statTop__KD2Gh{height:120px}}.BottomCTA_section__9yXMq{font-family:DM Sans,sans-serif;padding:24px 16px 40px;background:transparent}.BottomCTA_panel__F2_uJ{background:linear-gradient(135deg,#4510b0,#5e1bff);border-radius:24px;max-width:1200px;margin:0 auto;padding:56px 16px}.BottomCTA_inner__xkAjD{max-width:960px;margin:0 auto;text-align:center;color:#ffffff}.BottomCTA_title__pJBLe{margin:0 0 12px;font-weight:700;font-size:2.6rem;line-height:1.1;letter-spacing:-.01em;color:#ffffff}.BottomCTA_sub__83O8H{margin:0 auto 22px;max-width:820px;color:#ffffff;opacity:.9;font-size:1.1rem;line-height:1.5}.BottomCTA_actions__H3uiE{display:flex;justify-content:center}.BottomCTA_cta__dxKSb{background:#ffffff;color:#5e1bff;border:none;border-radius:12px;padding:12px 22px;font-weight:700;cursor:pointer;box-shadow:none;transition:opacity .3s ease,transform .3s ease;font-size:18px;text-decoration:none}.BottomCTA_cta__dxKSb:hover{opacity:.85;transform:translateY(-2px)}.BottomCTA_cta__dxKSb:active{transform:translateY(1px)}@media (max-width:980px){.BottomCTA_title__pJBLe{font-size:2.2rem}.BottomCTA_sub__83O8H{font-size:1.02rem}.BottomCTA_panel__F2_uJ{padding:44px 14px}}</style><script type="text/javascript" async="" src="./wordpress_files/js"></script><script async="" src="./wordpress_files/gtm.js.download"></script><script defer="" nomodule="" src="./wordpress_files/polyfills-42372ed130431b0a.js.download"></script><script src="./wordpress_files/webpack-6ffd07a3317375c1.js.download" defer=""></script><script src="./wordpress_files/framework-2f335d22a7318891.js.download" defer=""></script><script src="./wordpress_files/main-98020a088acd512f.js.download" defer=""></script><script src="./wordpress_files/_app-0461bdc29a7d24d9.js.download" defer=""></script><script src="./wordpress_files/296-e2c8c047e5b86e0f.js.download" defer=""></script><script src="./wordpress_files/index-9ff5f4c4044332f1.js.download" defer=""></script><script src="./wordpress_files/_buildManifest.js.download" defer=""></script><script src="./wordpress_files/_ssgManifest.js.download" defer=""></script><link as="script" rel="prefetch" href="./wordpress_files/blog-c2d9a23502a8db59.js.download"><link as="script" rel="prefetch" href="./wordpress_files/company-0c64bc8e13a0ecd3.js.download"><link as="script" rel="prefetch" href="./wordpress_files/wordpress-0b00b23ce4620e2e.js.download"><link as="script" rel="prefetch" href="./wordpress_files/wix-549c95e443f259a5.js.download"><style type="text/css">:where(html[dir="ltr"]),:where([data-sonner-toaster][dir="ltr"]){--toast-icon-margin-start: -3px;--toast-icon-margin-end: 4px;--toast-svg-margin-start: -1px;--toast-svg-margin-end: 0px;--toast-button-margin-start: auto;--toast-button-margin-end: 0;--toast-close-button-start: 0;--toast-close-button-end: unset;--toast-close-button-transform: translate(-35%, -35%)}:where(html[dir="rtl"]),:where([data-sonner-toaster][dir="rtl"]){--toast-icon-margin-start: 4px;--toast-icon-margin-end: -3px;--toast-svg-margin-start: 0px;--toast-svg-margin-end: -1px;--toast-button-margin-start: 0;--toast-button-margin-end: auto;--toast-close-button-start: unset;--toast-close-button-end: 0;--toast-close-button-transform: translate(35%, -35%)}:where([data-sonner-toaster]){position:fixed;width:var(--width);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;--gray1: hsl(0, 0%, 99%);--gray2: hsl(0, 0%, 97.3%);--gray3: hsl(0, 0%, 95.1%);--gray4: hsl(0, 0%, 93%);--gray5: hsl(0, 0%, 90.9%);--gray6: hsl(0, 0%, 88.7%);--gray7: hsl(0, 0%, 85.8%);--gray8: hsl(0, 0%, 78%);--gray9: hsl(0, 0%, 56.1%);--gray10: hsl(0, 0%, 52.3%);--gray11: hsl(0, 0%, 43.5%);--gray12: hsl(0, 0%, 9%);--border-radius: 8px;box-sizing:border-box;padding:0;margin:0;list-style:none;outline:none;z-index:999999999}:where([data-sonner-toaster][data-x-position="right"]){right:max(var(--offset),env(safe-area-inset-right))}:where([data-sonner-toaster][data-x-position="left"]){left:max(var(--offset),env(safe-area-inset-left))}:where([data-sonner-toaster][data-x-position="center"]){left:50%;transform:translate(-50%)}:where([data-sonner-toaster][data-y-position="top"]){top:max(var(--offset),env(safe-area-inset-top))}:where([data-sonner-toaster][data-y-position="bottom"]){bottom:max(var(--offset),env(safe-area-inset-bottom))}:where([data-sonner-toast]){--y: translateY(100%);--lift-amount: calc(var(--lift) * var(--gap));z-index:var(--z-index);position:absolute;opacity:0;transform:var(--y);filter:blur(0);touch-action:none;transition:transform .4s,opacity .4s,height .4s,box-shadow .2s;box-sizing:border-box;outline:none;overflow-wrap:anywhere}:where([data-sonner-toast][data-styled="true"]){padding:16px;background:var(--normal-bg);border:1px solid var(--normal-border);color:var(--normal-text);border-radius:var(--border-radius);box-shadow:0 4px 12px #0000001a;width:var(--width);font-size:13px;display:flex;align-items:center;gap:6px}:where([data-sonner-toast]:focus-visible){box-shadow:0 4px 12px #0000001a,0 0 0 2px #0003}:where([data-sonner-toast][data-y-position="top"]){top:0;--y: translateY(-100%);--lift: 1;--lift-amount: calc(1 * var(--gap))}:where([data-sonner-toast][data-y-position="bottom"]){bottom:0;--y: translateY(100%);--lift: -1;--lift-amount: calc(var(--lift) * var(--gap))}:where([data-sonner-toast]) :where([data-description]){font-weight:400;line-height:1.4;color:inherit}:where([data-sonner-toast]) :where([data-title]){font-weight:500;line-height:1.5;color:inherit}:where([data-sonner-toast]) :where([data-icon]){display:flex;height:16px;width:16px;position:relative;justify-content:flex-start;align-items:center;flex-shrink:0;margin-left:var(--toast-icon-margin-start);margin-right:var(--toast-icon-margin-end)}:where([data-sonner-toast][data-promise="true"]) :where([data-icon])>svg{opacity:0;transform:scale(.8);transform-origin:center;animation:sonner-fade-in .3s ease forwards}:where([data-sonner-toast]) :where([data-icon])>*{flex-shrink:0}:where([data-sonner-toast]) :where([data-icon]) svg{margin-left:var(--toast-svg-margin-start);margin-right:var(--toast-svg-margin-end)}:where([data-sonner-toast]) :where([data-content]){display:flex;flex-direction:column;gap:2px}[data-sonner-toast][data-styled=true] [data-button]{border-radius:4px;padding-left:8px;padding-right:8px;height:24px;font-size:12px;color:var(--normal-bg);background:var(--normal-text);margin-left:var(--toast-button-margin-start);margin-right:var(--toast-button-margin-end);border:none;cursor:pointer;outline:none;display:flex;align-items:center;flex-shrink:0;transition:opacity .4s,box-shadow .2s}:where([data-sonner-toast]) :where([data-button]):focus-visible{box-shadow:0 0 0 2px #0006}:where([data-sonner-toast]) :where([data-button]):first-of-type{margin-left:var(--toast-button-margin-start);margin-right:var(--toast-button-margin-end)}:where([data-sonner-toast]) :where([data-cancel]){color:var(--normal-text);background:rgba(0,0,0,.08)}:where([data-sonner-toast][data-theme="dark"]) :where([data-cancel]){background:rgba(255,255,255,.3)}:where([data-sonner-toast]) :where([data-close-button]){position:absolute;left:var(--toast-close-button-start);right:var(--toast-close-button-end);top:0;height:20px;width:20px;display:flex;justify-content:center;align-items:center;padding:0;background:var(--gray1);color:var(--gray12);border:1px solid var(--gray4);transform:var(--toast-close-button-transform);border-radius:50%;cursor:pointer;z-index:1;transition:opacity .1s,background .2s,border-color .2s}:where([data-sonner-toast]) :where([data-close-button]):focus-visible{box-shadow:0 4px 12px #0000001a,0 0 0 2px #0003}:where([data-sonner-toast]) :where([data-disabled="true"]){cursor:not-allowed}:where([data-sonner-toast]):hover :where([data-close-button]):hover{background:var(--gray2);border-color:var(--gray5)}:where([data-sonner-toast][data-swiping="true"]):before{content:"";position:absolute;left:0;right:0;height:100%;z-index:-1}:where([data-sonner-toast][data-y-position="top"][data-swiping="true"]):before{bottom:50%;transform:scaleY(3) translateY(50%)}:where([data-sonner-toast][data-y-position="bottom"][data-swiping="true"]):before{top:50%;transform:scaleY(3) translateY(-50%)}:where([data-sonner-toast][data-swiping="false"][data-removed="true"]):before{content:"";position:absolute;inset:0;transform:scaleY(2)}:where([data-sonner-toast]):after{content:"";position:absolute;left:0;height:calc(var(--gap) + 1px);bottom:100%;width:100%}:where([data-sonner-toast][data-mounted="true"]){--y: translateY(0);opacity:1}:where([data-sonner-toast][data-expanded="false"][data-front="false"]){--scale: var(--toasts-before) * .05 + 1;--y: translateY(calc(var(--lift-amount) * var(--toasts-before))) scale(calc(-1 * var(--scale)));height:var(--front-toast-height)}:where([data-sonner-toast])>*{transition:opacity .4s}:where([data-sonner-toast][data-expanded="false"][data-front="false"][data-styled="true"])>*{opacity:0}:where([data-sonner-toast][data-visible="false"]){opacity:0;pointer-events:none}:where([data-sonner-toast][data-mounted="true"][data-expanded="true"]){--y: translateY(calc(var(--lift) * var(--offset)));height:var(--initial-height)}:where([data-sonner-toast][data-removed="true"][data-front="true"][data-swipe-out="false"]){--y: translateY(calc(var(--lift) * -100%));opacity:0}:where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="true"]){--y: translateY(calc(var(--lift) * var(--offset) + var(--lift) * -100%));opacity:0}:where([data-sonner-toast][data-removed="true"][data-front="false"][data-swipe-out="false"][data-expanded="false"]){--y: translateY(40%);opacity:0;transition:transform .5s,opacity .2s}:where([data-sonner-toast][data-removed="true"][data-front="false"]):before{height:calc(var(--initial-height) + 20%)}[data-sonner-toast][data-swiping=true]{transform:var(--y) translateY(var(--swipe-amount, 0px));transition:none}[data-sonner-toast][data-swipe-out=true][data-y-position=bottom],[data-sonner-toast][data-swipe-out=true][data-y-position=top]{animation:swipe-out .2s ease-out forwards}@keyframes swipe-out{0%{transform:translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount)));opacity:1}to{transform:translateY(calc(var(--lift) * var(--offset) + var(--swipe-amount) + var(--lift) * -100%));opacity:0}}@media (max-width: 600px){[data-sonner-toaster]{position:fixed;--mobile-offset: 16px;right:var(--mobile-offset);left:var(--mobile-offset);width:100%}[data-sonner-toaster] [data-sonner-toast]{left:0;right:0;width:calc(100% - var(--mobile-offset) * 2)}[data-sonner-toaster][data-x-position=left]{left:var(--mobile-offset)}[data-sonner-toaster][data-y-position=bottom]{bottom:20px}[data-sonner-toaster][data-y-position=top]{top:20px}[data-sonner-toaster][data-x-position=center]{left:var(--mobile-offset);right:var(--mobile-offset);transform:none}}[data-sonner-toaster][data-theme=light]{--normal-bg: #fff;--normal-border: var(--gray4);--normal-text: var(--gray12);--success-bg: hsl(143, 85%, 96%);--success-border: hsl(145, 92%, 91%);--success-text: hsl(140, 100%, 27%);--info-bg: hsl(208, 100%, 97%);--info-border: hsl(221, 91%, 91%);--info-text: hsl(210, 92%, 45%);--warning-bg: hsl(49, 100%, 97%);--warning-border: hsl(49, 91%, 91%);--warning-text: hsl(31, 92%, 45%);--error-bg: hsl(359, 100%, 97%);--error-border: hsl(359, 100%, 94%);--error-text: hsl(360, 100%, 45%)}[data-sonner-toaster][data-theme=light] [data-sonner-toast][data-invert=true]{--normal-bg: #000;--normal-border: hsl(0, 0%, 20%);--normal-text: var(--gray1)}[data-sonner-toaster][data-theme=dark] [data-sonner-toast][data-invert=true]{--normal-bg: #fff;--normal-border: var(--gray3);--normal-text: var(--gray12)}[data-sonner-toaster][data-theme=dark]{--normal-bg: #000;--normal-border: hsl(0, 0%, 20%);--normal-text: var(--gray1);--success-bg: hsl(150, 100%, 6%);--success-border: hsl(147, 100%, 12%);--success-text: hsl(150, 86%, 65%);--info-bg: hsl(215, 100%, 6%);--info-border: hsl(223, 100%, 12%);--info-text: hsl(216, 87%, 65%);--warning-bg: hsl(64, 100%, 6%);--warning-border: hsl(60, 100%, 12%);--warning-text: hsl(46, 87%, 65%);--error-bg: hsl(358, 76%, 10%);--error-border: hsl(357, 89%, 16%);--error-text: hsl(358, 100%, 81%)}[data-rich-colors=true][data-sonner-toast][data-type=success],[data-rich-colors=true][data-sonner-toast][data-type=success] [data-close-button]{background:var(--success-bg);border-color:var(--success-border);color:var(--success-text)}[data-rich-colors=true][data-sonner-toast][data-type=info],[data-rich-colors=true][data-sonner-toast][data-type=info] [data-close-button]{background:var(--info-bg);border-color:var(--info-border);color:var(--info-text)}[data-rich-colors=true][data-sonner-toast][data-type=warning],[data-rich-colors=true][data-sonner-toast][data-type=warning] [data-close-button]{background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text)}[data-rich-colors=true][data-sonner-toast][data-type=error],[data-rich-colors=true][data-sonner-toast][data-type=error] [data-close-button]{background:var(--error-bg);border-color:var(--error-border);color:var(--error-text)}.sonner-loading-wrapper{--size: 16px;height:var(--size);width:var(--size);position:absolute;inset:0;z-index:10}.sonner-loading-wrapper[data-visible=false]{transform-origin:center;animation:sonner-fade-out .2s ease forwards}.sonner-spinner{position:relative;top:50%;left:50%;height:var(--size);width:var(--size)}.sonner-loading-bar{animation:sonner-spin 1.2s linear infinite;background:var(--gray11);border-radius:6px;height:8%;left:-10%;position:absolute;top:-3.9%;width:24%}.sonner-loading-bar:nth-child(1){animation-delay:-1.2s;transform:rotate(.0001deg) translate(146%)}.sonner-loading-bar:nth-child(2){animation-delay:-1.1s;transform:rotate(30deg) translate(146%)}.sonner-loading-bar:nth-child(3){animation-delay:-1s;transform:rotate(60deg) translate(146%)}.sonner-loading-bar:nth-child(4){animation-delay:-.9s;transform:rotate(90deg) translate(146%)}.sonner-loading-bar:nth-child(5){animation-delay:-.8s;transform:rotate(120deg) translate(146%)}.sonner-loading-bar:nth-child(6){animation-delay:-.7s;transform:rotate(150deg) translate(146%)}.sonner-loading-bar:nth-child(7){animation-delay:-.6s;transform:rotate(180deg) translate(146%)}.sonner-loading-bar:nth-child(8){animation-delay:-.5s;transform:rotate(210deg) translate(146%)}.sonner-loading-bar:nth-child(9){animation-delay:-.4s;transform:rotate(240deg) translate(146%)}.sonner-loading-bar:nth-child(10){animation-delay:-.3s;transform:rotate(270deg) translate(146%)}.sonner-loading-bar:nth-child(11){animation-delay:-.2s;transform:rotate(300deg) translate(146%)}.sonner-loading-bar:nth-child(12){animation-delay:-.1s;transform:rotate(330deg) translate(146%)}@keyframes sonner-fade-in{0%{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}@keyframes sonner-fade-out{0%{opacity:1;transform:scale(1)}to{opacity:0;transform:scale(.8)}}@keyframes sonner-spin{0%{opacity:1}to{opacity:.15}}@media (prefers-reduced-motion){[data-sonner-toast],[data-sonner-toast]>*,.sonner-loading-bar{transition:none!important;animation:none!important}}.sonner-loader{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transform-origin:center;transition:opacity .2s,transform .2s}.sonner-loader[data-visible=false]{opacity:0;transform:scale(.8) translate(-50%,-50%)}
+</style><style id="highlight-mengshou-style">
+    .highlight-mengshou-wrap {
+        background: #ff9;
+        cursor: pointer;
+    }
+    .highlight-mengshou-wrap.active {
+        background: #ffb;
+    }
+</style><link rel="preconnect" href="https://portal.ultimo-bots.com/" crossorigin=""><link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin=""><style id="saicf-global-scroll-style">
+      body.no-scroll,
+      html.no-scroll {
+        overflow: hidden !important;
+        position: fixed !important;
+        inset: 0 !important;
+        width: 100% !important;
+        touch-action: none !important;
+        overscroll-behavior: none !important;
+      }
+    </style><link rel="stylesheet" href="./wordpress_files/css2" data-ultimo-font="roboto, sans-serif"><link as="script" rel="prefetch" href="./wordpress_files/pricing-605d620a1807fd15.js.download"><link as="script" rel="prefetch" href="./wordpress_files/imprint-f7c565386070b76a.js.download"><link as="script" rel="prefetch" href="./wordpress_files/referral-a68ef85adc992ad3.js.download"><link as="script" rel="prefetch" href="./wordpress_files/terms-faf6c87553e06558.js.download"><link as="script" rel="prefetch" href="./wordpress_files/privacy-e10a1fc5bef4efd9.js.download"><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=3840&amp;q=75 3840w" imagesizes="(max-width: 1200px) 100vw, 380px" data-next-head=""></head><body data-new-gr-c-s-check-loaded="14.1277.0" data-gr-ext-installed=""><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-white.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-white.webp&amp;w=384&amp;q=75 2x"><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-purple.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-purple.webp&amp;w=384&amp;q=75 2x"><link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=3840&amp;q=75 3840w" imagesizes="(max-width: 1200px) 100vw, 380px"><div id="__next"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8K5WZKH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div class="app-container __variable_ef116d"><div class="sidebar-container "><aside class="SidebarMenu_sidebar__iR1R2 "><div class="SidebarMenu_logo-container__ZOCe_"><img alt="Ultimo Bots" width="140" height="57" decoding="async" data-nimg="1" class="SidebarMenu_ultimo-bots-logo__FFCcg" style="color:transparent" srcset="/_next/image?url=%2Fultimo-bots-white.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-white.webp&amp;w=384&amp;q=75 2x" src="./wordpress_files/ultimo-bots-white.jpeg"></div><nav class="SidebarMenu_menu__9ZA0Y"><a class="SidebarMenu_menuButton__Pkx3x " href="https://ultimo-bots.com/"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>Home</span></div></a><a class="SidebarMenu_menuButton__Pkx3x " href="https://ultimo-bots.com/pricing"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>Pricing</span></div></a><div class="SidebarMenu_menuGroup__WNbEj"><button class="SidebarMenu_menuButton__Pkx3x SidebarMenu_dropdownToggle___kCjV"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>Apps</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down SidebarMenu_dropdownChevron__g6XcJ SidebarMenu_dropdownChevronOpen__q0dCU" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></div></button><div class="SidebarMenu_dropdown__P3Apn SidebarMenu_dropdownOpen__MPj2D"><a class="SidebarMenu_dropdownItem__AEOO4 SidebarMenu_dropdownItemActive__c_v6R" href="https://ultimo-bots.com/apps/wordpress">Wordpress</a><a class="SidebarMenu_dropdownItem__AEOO4 " href="https://ultimo-bots.com/apps/wix">Wix</a></div></div><div class="SidebarMenu_menuGroup__WNbEj"><button class="SidebarMenu_menuButton__Pkx3x SidebarMenu_dropdownToggle___kCjV"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>Resources</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down SidebarMenu_dropdownChevron__g6XcJ " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></div></button><div class="SidebarMenu_dropdown__P3Apn "><a class="SidebarMenu_dropdownItem__AEOO4 " href="https://ultimo-bots.com/blog">Blog</a><a href="https://docs.ultimo-bots.com/" class="SidebarMenu_dropdownItem__AEOO4" target="_blank" rel="noopener noreferrer">Guide</a></div></div><a class="SidebarMenu_menuButton__Pkx3x " href="https://ultimo-bots.com/company"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>About</span></div></a><a class="SidebarMenu_menuButton__Pkx3x " href="https://ultimo-bots.com/referral"><div class="SidebarMenu_menu-item-icon-title__sw_OG"><span>Referral Programm</span></div></a></nav><div class="SidebarMenu_sidebar-bottom-button__0VRlH"><a href="https://portal.ultimo-bots.com/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"></path></svg>Agent Builder</a></div></aside></div><div class="main-content"><div class="mobile-header"><img alt="Ultimo Bots Logo" width="140" height="57" decoding="async" data-nimg="1" class="ultimo-bots-mobile-logo" style="color:transparent" srcset="/_next/image?url=%2Fultimo-bots-purple.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-purple.webp&amp;w=384&amp;q=75 2x" src="./wordpress_files/ultimo-bots-purple.jpeg"><button class="hamburger" aria-label="Toggle Sidebar">☰</button></div><section class="wixSection" id="wix"><div class="wixHero"><div class="wixWrap"><div class="wixHeroLeft"><h1 class="wixHeroTitle">The highest-rated AI chatbot for WordPress websites</h1><p class="wixHeroSub">Install the Ultimo Bots plugin from the WordPress Plugin Directory and get a fully trained chatbot live on your site in 2 minutes.</p><div class="wixHeroActions"><a class="wixCtaPrimary" href="https://wordpress.org/plugins/ultimo-bots" target="_blank" rel="noopener noreferrer">Install on WordPress</a><span class="wixHeroNote">2-minute plugin setup</span></div></div><div class="wixHeroRight"><div class="wixHeroMedia"><video class="wixHeroVideo" autoplay="" loop="" playsinline="" preload="metadata"></video><button class="wixProgressBtn" aria-label="Play video"><span class="wixProgressBg"></span><svg class="wixProgressRing" viewBox="0 0 44 44"><circle class="wixRingTrack" cx="22" cy="22" r="18" stroke-width="4" fill="none"></circle><circle class="wixRingProgress" cx="22" cy="22" r="18" stroke-width="4" fill="none" stroke-dasharray="113.09733552923255" stroke-dashoffset="110.77145897443066"></circle></svg><span class="wixIconPlay"></span></button></div></div></div></div><div class="wixHighlights"><div class="wixWrap"><div class="wixPill">Why it stands out on WordPress</div><div class="wixHeader"><h2 class="wixTitle">Built for WordPress, not just embedded into it</h2><p class="wixSub">Ultimo Bots is designed around the WordPress ecosystem, so setup, training, and management feel native and effortless inside your admin dashboard.</p></div><div class="wixHighlightGrid"><article class="wixCard"><div class="wixMedia"><img alt="Chatbot trained on your WordPress content" decoding="async" data-nimg="fill" class="wixImg" sizes="(max-width: 1200px) 100vw, 380px" srcset="/_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fultimo-bots-highlights-1.webp&amp;w=3840&amp;q=75 3840w" src="./wordpress_files/ultimo-bots-highlights-1.jpeg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div><h3 class="wixCardTitle">Understands your WordPress site</h3><p class="wixCardText">Train the chatbot on your WordPress pages, blog, store, and FAQs to answer like a real team member.</p></article><article class="wixCard"><div class="wixMedia"><img alt="Fast WordPress plugin integration" loading="lazy" decoding="async" data-nimg="fill" class="wixImg" sizes="(max-width: 1200px) 100vw, 380px" srcset="/_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fultimo-bots-highlights-2.webp&amp;w=3840&amp;q=75 3840w" src="./wordpress_files/ultimo-bots-highlights-2.jpeg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div><h3 class="wixCardTitle">Native WordPress plugin installation</h3><p class="wixCardText">Install the plugin directly from the WordPress Plugin Directory with a guided flow that takes less than two minutes.</p></article><article class="wixCard"><div class="wixMedia"><img alt="Swiss hosting and privacy for WordPress" loading="lazy" decoding="async" data-nimg="fill" class="wixImg" sizes="(max-width: 1200px) 100vw, 380px" srcset="/_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fultimo-bots-highlights-3.webp&amp;w=3840&amp;q=75 3840w" src="./wordpress_files/ultimo-bots-highlights-3.jpeg" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div><h3 class="wixCardTitle">Secure and privacy-focused</h3><p class="wixCardText">Swiss hosting, GDPR compliance, and transparent controls over what the chatbot can access from your WordPress site.</p></article></div></div></div><div class="wixMarket"><div class="wixWrap"><div class="wixMarketLayout"><div class="wixMarketLeft"><h2 class="wixTitle">Top-rated AI chatbot plugin for WordPress</h2><p class="wixMarketSub">Among all chatbot plugins on WordPress, Ultimo Bots is rated at the top, with users praising its accuracy, ease of use, and support.</p><ul class="wixMarketList"><li>Best-rated AI chatbot plugin across popular WordPress options</li><li>Loved by agencies, e-commerce stores, and service businesses on WordPress</li><li>Continuously improved with real feedback from WordPress users</li></ul><div class="wixBottomCtaRow"><a class="wixCtaPrimary" href="https://wordpress.org/plugins/ultimo-bots" target="_blank" rel="noopener noreferrer">View in WordPress Plugin Directory</a></div></div><div class="wixHeroRight"><div class="wixMarketMedia"><img alt="Ultimo Bots plugin listing for WordPress" loading="lazy" width="2233" height="1258" decoding="async" data-nimg="1" class="wixMarketImg" srcset="/_next/image?url=%2Fwordpress-blog%2Fwordpress_plugin_overview.webp&amp;w=3840&amp;q=75 1x" src="./wordpress_files/wordpress_plugin_overview.jpeg" style="color: transparent;"><div class="wixMarketOverlay"></div></div></div></div></div></div><div class="wixHow"><div class="wixWrap"><div class="wixPill">How it works</div><div class="wixHeader"><h2 class="wixTitle">From plugin install to live chatbot in 2 minutes</h2><p class="wixSub">A simple, guided flow inside your WordPress admin takes care of everything for you. No code, no scripts, no technical setup.</p></div><div class="wixLayout"><div class="wixLeft"><ul class="wixList" role="tablist" aria-orientation="vertical"><li class="wixItem wixActive"><button role="tab" aria-selected="true" aria-controls="wix-how-panel-1" class="wixBtn"><span class="wixNum">01.</span><span class="wixTexts"><span class="wixItemTitle">Add the WordPress plugin</span><span class="wixItemDesc wixDescOpen">Install the Ultimo Bots plugin from the WordPress Plugin Directory in a few clicks.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" aria-controls="wix-how-panel-2" class="wixBtn"><span class="wixNum">02.</span><span class="wixTexts"><span class="wixItemTitle">Connect your website content</span><span class="wixItemDesc wixDescClosed">Let the chatbot learn from your WordPress pages, FAQs, and documents.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" aria-controls="wix-how-panel-3" class="wixBtn"><span class="wixNum">03.</span><span class="wixTexts"><span class="wixItemTitle">Go live in 2 minutes</span><span class="wixItemDesc wixDescClosed">Publish and have a fully trained chatbot on your WordPress site.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" aria-controls="wix-how-panel-4" class="wixBtn"><span class="wixNum">04.</span><span class="wixTexts"><span class="wixItemTitle">Handle complex questions</span><span class="wixItemDesc wixDescClosed">Let the chatbot respond or route conversations to your team directly from your WordPress site.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" aria-controls="wix-how-panel-5" class="wixBtn"><span class="wixNum">05.</span><span class="wixTexts"><span class="wixItemTitle">Track performance</span><span class="wixItemDesc wixDescClosed">See what visitors ask, what converts, and where to improve inside your WordPress dashboard.</span></span></button></li></ul></div><div class="wixRight" id="wix-how-panel-1" role="tabpanel" aria-live="polite"><div class="wixScreen"><video class="wixVideo" poster="/how-it-works-1.webm" autoplay="" loop="" playsinline="" preload="metadata"><source src="/how-it-works-1.webm" type="video/webm"></video><button class="wixProgressBtn" aria-label="Play video"><span class="wixProgressBg"></span><svg class="wixProgressRing" viewBox="0 0 44 44"><circle class="wixRingTrack" cx="22" cy="22" r="18" stroke-width="4" fill="none"></circle><circle class="wixRingProgress" cx="22" cy="22" r="18" stroke-width="4" fill="none" stroke-dasharray="113.09733552923255" stroke-dashoffset="69.18961928360844"></circle></svg><span class="wixIconPlay"></span></button></div></div></div><div class="wixBottomCtaRow"><a class="wixCtaPrimary" href="https://wordpress.org/plugins/ultimo-bots" target="_blank" rel="noopener noreferrer">Install Plugin</a></div></div></div><div class="wixBenefits"><div class="wixWrap"><div class="wixPill">What you get</div><div class="wixHeader"><h2 class="wixTitle">Your WordPress chatbot that feels like a real team member</h2><p class="wixSub">Ultimo Bots helps WordPress sites answer questions, qualify leads, and support customers around the clock.</p></div><div class="wixBenefitsLayout"><div class="wixStage"><video class="wixVideo" poster="/benefits-1.webm" autoplay="" loop="" playsinline="" preload="metadata"></video><button class="wixProgressBtn" aria-label="Play video"><span class="wixProgressBg"></span><svg class="wixProgressRing" viewBox="0 0 44 44"><circle class="wixRingTrack" cx="22" cy="22" r="18" stroke-width="4" fill="none"></circle><circle class="wixRingProgress" cx="22" cy="22" r="18" stroke-width="4" fill="none" stroke-dasharray="113.09733552923255" stroke-dashoffset="38.41871463237696"></circle></svg><span class="wixIconPlay"></span></button></div><div class="wixBenefitsRight"><ul class="wixList" role="tablist" aria-orientation="vertical"><li class="wixItem wixActive"><button role="tab" aria-selected="true" class="wixBtn"><span class="wixIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-check" class="svg-inline--fa fa-user-check " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg></span><span class="wixTexts"><span class="wixItemTitle">Best-rated WordPress chatbot</span><span class="wixItemDesc wixOpen">Top-rated AI chatbot plugin for WordPress websites across multiple industries.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" class="wixBtn"><span class="wixIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bolt" class="svg-inline--fa fa-bolt " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"></path></svg></span><span class="wixTexts"><span class="wixItemTitle">2-minute plugin setup</span><span class="wixItemDesc wixClosed">No code, no copy-paste, no scripts. Install the plugin, connect your content, and go live instantly.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" class="wixBtn"><span class="wixIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-dots" class="svg-inline--fa fa-comment-dots " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM128 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"></path></svg></span><span class="wixTexts"><span class="wixItemTitle">On-brand conversations</span><span class="wixItemDesc wixClosed">The chatbot speaks in your tone of voice and follows your WordPress brand guidelines.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" class="wixBtn"><span class="wixIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l82.7 0L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 82.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L320 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"></path></svg></span><span class="wixTexts"><span class="wixItemTitle">More leads from WordPress</span><span class="wixItemDesc wixClosed">Turn visitors into qualified leads directly from your WordPress pages and posts.</span></span></button></li><li class="wixItem "><button role="tab" aria-selected="false" class="wixBtn"><span class="wixIcon" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye" class="svg-inline--fa fa-eye " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"></path></svg></span><span class="wixTexts"><span class="wixItemTitle">Full visibility</span><span class="wixItemDesc wixClosed">See every conversation, top questions, and what generates sign-ups or sales from your WordPress site.</span></span></button></li></ul></div></div></div></div></section><section id="TestimonialsGrid"><section class="TestimonialsGrid_section__V1lv1" id="testimonials"><div class="TestimonialsGrid_wrap__Vgt1u"><div class="TestimonialsGrid_pill__69o_K">Testimonials</div><div class="TestimonialsGrid_header__9l0kF"><h2 class="TestimonialsGrid_title__UVxu_">What people say</h2><p class="TestimonialsGrid_sub__Cysh9">Used worldwide for fast, friendly support on any website.</p></div><div class="TestimonialsGrid_sliderWrapper__21mwZ"><div class="TestimonialsGrid_grid__Bh9ze"><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_stat__Ewzzw TestimonialsGrid_statBusinesses__UpRjv"><div class="TestimonialsGrid_statTop__KD2Gh"></div><div class="TestimonialsGrid_statBody__ZA2v4"><div class="TestimonialsGrid_statNumber__aT9Zs">2'000+</div><div class="TestimonialsGrid_statLabel__na5ih">paying customers</div></div></article><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_boxA__D8UIJ"><p class="TestimonialsGrid_quote__3pX9x">"The quality of the chat’s answers is incredible. You can “train” it however you like and have a trusted assistant. No mistakes in the answers. Congratulations!"</p><div class="TestimonialsGrid_meta__VN6_H"><div class="TestimonialsGrid_person__mpBkh"><div class="TestimonialsGrid_name__b1rPK">Benoit</div><div class="TestimonialsGrid_role__u9blK">NEXOO</div></div><button class="TestimonialsGrid_linkBtn__7RZNo">See agent in action</button></div></article><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_boxB__iKvoB"><p class="TestimonialsGrid_quote__3pX9x">"Absolutely fantastic. Immediate success with clients. Fast help, professional team, and they keep improving based on our needs."</p><div class="TestimonialsGrid_meta__VN6_H"><div class="TestimonialsGrid_person__mpBkh"><div class="TestimonialsGrid_name__b1rPK">Jan</div><div class="TestimonialsGrid_role__u9blK">SKYDATA</div></div><button class="TestimonialsGrid_linkBtn__7RZNo">See agent in action</button></div></article><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_stat__Ewzzw TestimonialsGrid_statCountries__dHZ6X"><div class="TestimonialsGrid_statTopAlt__ahCh3"></div><div class="TestimonialsGrid_statBody__ZA2v4"><div class="TestimonialsGrid_statNumber__aT9Zs">80+</div><div class="TestimonialsGrid_statLabel__na5ih">countries served</div></div></article><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_boxC__2281x"><p class="TestimonialsGrid_quote__3pX9x">"This is one of the smartest add ons out there, offering top-quality performance and amazing features. Thanks to it, my website has become twice as good. Highly recommended!"</p><div class="TestimonialsGrid_meta__VN6_H"><div class="TestimonialsGrid_person__mpBkh"><div class="TestimonialsGrid_name__b1rPK">Orakai</div><div class="TestimonialsGrid_role__u9blK">SAJUGOTGAN</div></div><button class="TestimonialsGrid_linkBtn__7RZNo">See agent in action</button></div></article><article class="TestimonialsGrid_card__fA_ub TestimonialsGrid_boxD__mKoru"><p class="TestimonialsGrid_quote__3pX9x">"We see questions of user that we would never have thought of and our agent books apointments and generates leads while serving our customers 24/7. So cool!"</p><div class="TestimonialsGrid_meta__VN6_H"><div class="TestimonialsGrid_person__mpBkh"><div class="TestimonialsGrid_name__b1rPK">Rebecca</div><div class="TestimonialsGrid_role__u9blK">VILLAR</div></div><button class="TestimonialsGrid_linkBtn__7RZNo">See agent in action</button></div></article></div></div><div class="TestimonialsGrid_indicators__nDq9g"><div class="TestimonialsGrid_indicator__CG96J " aria-hidden="true"></div><div class="TestimonialsGrid_indicator__CG96J TestimonialsGrid_active__eqiam" aria-hidden="true"></div><div class="TestimonialsGrid_indicator__CG96J " aria-hidden="true"></div><div class="TestimonialsGrid_indicator__CG96J " aria-hidden="true"></div><div class="TestimonialsGrid_indicator__CG96J " aria-hidden="true"></div><div class="TestimonialsGrid_indicator__CG96J " aria-hidden="true"></div></div></div></section></section><section id="SecurityBlock"><section class="SecurityBlock_section__huNZo" id="security"><div class="SecurityBlock_wrap__EK7qn"><div class="SecurityBlock_pill__gi6zv">Security</div><div class="SecurityBlock_grid___gf7J"><div class="SecurityBlock_headerArea__V_HBg"><h2 class="SecurityBlock_title__7kXK3">Enterprise-grade security &amp; privacy</h2><p class="SecurityBlock_sub__up_yu">We take security and compliance seriously. Ultimo Bots is GDPR aligned and built to keep your data private and safe.</p><div class="SecurityBlock_badges__bBSWl"><div class="SecurityBlock_badge__GCh32"><img alt="SOC 2" loading="lazy" width="84" height="84" decoding="async" data-nimg="1" srcset="/_next/image?url=%2Fsoc-2-security.webp&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fsoc-2-security.webp&amp;w=256&amp;q=75 2x" src="./wordpress_files/soc-2-security.jpeg" style="color: transparent;"></div><div class="SecurityBlock_badge__GCh32"><img alt="GDPR" loading="lazy" width="84" height="84" decoding="async" data-nimg="1" srcset="/_next/image?url=%2Fgdpr.webp&amp;w=96&amp;q=75 1x, /_next/image?url=%2Fgdpr.webp&amp;w=256&amp;q=75 2x" src="./wordpress_files/gdpr.jpeg" style="color: transparent;"></div></div></div><div class="SecurityBlock_cards__PHPRE"><div class="SecurityBlock_card__Kh_kq"><div class="SecurityBlock_icon__H6Ovw"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" class="svg-inline--fa fa-database " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M448 80l0 48c0 44.2-100.3 80-224 80S0 172.2 0 128L0 80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6L448 288c0 44.2-100.3 80-224 80S0 332.2 0 288L0 186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6l0 85.9c0 44.2-100.3 80-224 80S0 476.2 0 432l0-85.9z"></path></svg></div><div class="SecurityBlock_cardText__WYAA9"><h3 class="SecurityBlock_cardTitle__a2hFR">Your data stays yours</h3><p class="SecurityBlock_cardSub__TXekG">Data is only accessible to your Agent and is never used to train models.</p></div></div><div class="SecurityBlock_card__Kh_kq"><div class="SecurityBlock_icon__H6Ovw"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" class="svg-inline--fa fa-lock " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M144 144l0 48 160 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192l0-48C80 64.5 144.5 0 224 0s144 64.5 144 144l0 48 16 0c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 256c0-35.3 28.7-64 64-64l16 0z"></path></svg></div><div class="SecurityBlock_cardText__WYAA9"><h3 class="SecurityBlock_cardTitle__a2hFR">Data encryption</h3><p class="SecurityBlock_cardSub__TXekG">Encryption in transit and at rest using industry-standard algorithms.</p></div></div><div class="SecurityBlock_card__Kh_kq"><div class="SecurityBlock_icon__H6Ovw"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link" class="svg-inline--fa fa-link " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"></path></svg></div><div class="SecurityBlock_cardText__WYAA9"><h3 class="SecurityBlock_cardTitle__a2hFR">Secure integrations</h3><p class="SecurityBlock_cardSub__TXekG">Verified variables ensure users access only their own data in your systems.</p></div></div></div></div><div class="SecurityBlock_footerNote__2XJcl"><span class="SecurityBlock_dot__d39Wi"></span>Ultimo Bots is committed to safeguarding your data.</div></div></section></section><section id="BottomCTA"><section class="BottomCTA_section__9yXMq" id="bottom-cta"><div class="BottomCTA_panel__F2_uJ"><div class="BottomCTA_inner__xkAjD"><h2 class="BottomCTA_title__pJBLe">Ready to automate your website?</h2><p class="BottomCTA_sub__83O8H">Launch your world-class AI Agent in minutes.</p><div class="BottomCTA_actions__H3uiE"><a class="BottomCTA_cta__dxKSb" href="https://wordpress.org/plugins/ultimo-bots" target="_blank" rel="noopener noreferrer">Start Free Trial</a></div></div></div></section></section><footer class="Footer_footer__pQtti" role="contentinfo"><div class="Footer_inner__vtL_T"><div class="Footer_brandColumn__gCAVl"><div class="Footer_logoRow__mqvRI"><a class="Footer_logoLink__Xoc6g" href="https://ultimo-bots.com/"><img alt="Ultimo Bots" loading="lazy" width="140" height="57" decoding="async" data-nimg="1" class="Footer_logo__fUEOF" style="color:transparent" srcset="/_next/image?url=%2Fultimo-bots-purple.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fultimo-bots-purple.webp&amp;w=384&amp;q=75 2x" src="./wordpress_files/ultimo-bots-purple.jpeg"></a></div><p class="Footer_copy__KUC9W">© <!-- -->2026<!-- --> Ultimo Bots</p><div class="Footer_contactSocialRow__Q2spU"><a class="Footer_contactButton__CpfRW" href="mailto:build@ultimo-bots.com">Contact</a><div class="Footer_socialList__MlkGd" aria-label="Social links"><a class="Footer_socialButton__owWdN" href="https://www.linkedin.com/company/ultimo-bots" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a><a class="Footer_socialButton__owWdN" href="https://www.youtube.com/@UltimoBots" target="_blank" rel="noopener noreferrer" aria-label="youtube"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a></div></div></div><div class="Footer_linksDesktop__OYQDk" aria-label="Footer site map"><div class="Footer_linkColumn__MEb1z"><p class="Footer_columnTitle__WcnMX">Company</p><ul class="Footer_columnList__C6zd6"><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/company">About</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/imprint">Imprint</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/terms">Terms</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/privacy">Privacy Policy</a></li></ul></div><div class="Footer_linkColumn__MEb1z"><p class="Footer_columnTitle__WcnMX">Product</p><ul class="Footer_columnList__C6zd6"><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/pricing">Pricing</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/apps/wix">Wix</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/apps/wordpress">Wordpress</a></li></ul></div><div class="Footer_linkColumn__MEb1z"><p class="Footer_columnTitle__WcnMX">Resources</p><ul class="Footer_columnList__C6zd6"><li><a href="https://docs.ultimo-bots.com/" class="Footer_columnLink__rKCX6" target="_blank" rel="noopener noreferrer">Guide</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/referral">Referral Programm</a></li><li><a class="Footer_columnLink__rKCX6" href="https://ultimo-bots.com/blog">Blog</a></li></ul></div></div><div class="Footer_linksMobile__09uww" aria-label="Mobile footer site map"><div class="Footer_accordionSection__tSaIy"><button type="button" class="Footer_accordionTrigger__cmLSX" aria-expanded="false"><span>Company</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down Footer_accordionIcon__o8y2e " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></button><div class="Footer_accordionPanel__wN8Bs "><ul><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/company">About</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/imprint">Imprint</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/terms">Terms</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/privacy">Privacy Policy</a></li></ul></div></div><div class="Footer_accordionSection__tSaIy"><button type="button" class="Footer_accordionTrigger__cmLSX" aria-expanded="false"><span>Product</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down Footer_accordionIcon__o8y2e " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></button><div class="Footer_accordionPanel__wN8Bs "><ul><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/pricing">Pricing</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/apps/wix">Wix</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/apps/wordpress">Wordpress</a></li></ul></div></div><div class="Footer_accordionSection__tSaIy"><button type="button" class="Footer_accordionTrigger__cmLSX" aria-expanded="false"><span>Resources</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down Footer_accordionIcon__o8y2e " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></button><div class="Footer_accordionPanel__wN8Bs "><ul><li><a href="https://docs.ultimo-bots.com/" class="Footer_accordionLink__u2u4X" target="_blank" rel="noopener noreferrer">Guide</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/referral">Referral Programm</a></li><li><a class="Footer_accordionLink__u2u4X" href="https://ultimo-bots.com/blog">Blog</a></li></ul></div></div></div></div></footer></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"X7GEfUXt910V1KLYrszlE","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><script id="structured-data" type="application/ld+json" data-nscript="afterInteractive">
+            {
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Ultimo Bots",
+              "alternateName": "AI Agent Builder",
+              "applicationCategory": "BusinessApplication",
+              "applicationSubCategory": "Artificial Intelligence, AI Agents, Chatbot, Customer Support",
+              "operatingSystem": "Web",
+              "url": "https://ultimo-bots.com",
+              "image": "https://ultimo-bots.com/og-preview.png",
+              "description": "Ultimo Bots lets you create intelligent AI Agents instantly from your website content with no coding required. Unlike other platforms that need complex customization, Ultimo Bots delivers a high quality and ready to use AI Agents out of the box in just two minutes. You can still customize tone, branding, and integrations easily, but the main advantage is simplicity and speed. One click, one minute, and your AI Agent is live on your website.",
+              "featureList": [
+                "Instant AI Agent creation for any website",
+                "Custom personalities and tone of voice",
+                "Seamless website integration",
+                "Lead generation and analytics",
+                "Official app in Wix App Market with on click integration",
+                "Official app in Webflow marketplace with on click integration",
+                "Official plugin in WordPress plugin directory with on click integration"
+              ],
+              "softwareVersion": "1.0.0",
+              "releaseNotes": "Initial public release with AI powered Agent creation and web integration features.",
+              "offers": {
+                "@type": "Offer",
+                "price": "0.00",
+                "priceCurrency": "EUR",
+                "availability": "https://schema.org/InStock",
+                "url": "https://ultimo-bots.com/#pricing",
+                "category": "FreeTrial"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "15",
+                "bestRating": "5",
+                "worstRating": "2"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Ultimo Bots",
+                "url": "https://ultimo-bots.com",
+                "logo": "https://ultimo-bots.com/ultimo-bots-logo.png",
+                "sameAs": [
+                  "https://www.linkedin.com/company/ultimo-bots"
+                ]
+              },
+              "creator": {
+                "@type": "Person",
+                "name": "Robert Klöpsch",
+                "jobTitle": "Chief Executive Officer",
+                "url": "https://www.linkedin.com/in/robertkloepsch/"
+              }
+            }
+          </script><script id="index-structured-data" type="application/ld+json" data-nscript="afterInteractive">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://ultimo-bots.com/#webpage",
+            "url": "https://ultimo-bots.com/",
+            "name": "Ultimo Bots | Agentic AI Customer Service Platform",
+            "inLanguage": "en",
+            "description": "Ultimo Bots is the fastest agentic AI platform to create website agents that handle complex customer requests like bookings, subscription changes and technical issues. No coding required, live in two minutes with full brand customisation.",
+            "isPartOf": {
+              "@type": "WebSite",
+              "@id": "https://ultimo-bots.com/#website",
+              "url": "https://ultimo-bots.com/",
+              "name": "Ultimo Bots"
+            }
+          },
+
+          {
+            "@type": "Organization",
+            "@id": "https://ultimo-bots.com/#organization",
+            "name": "Ultimo Bots",
+            "url": "https://ultimo-bots.com/",
+            "logo": "https://ultimo-bots.com/og-image.png",
+            "description": "Ultimo Bots is the number one go-to platform for agentic AI that automates customer service through multi-agent operations and flexible integrations, with the fastest setup and most trusted support.",
+            "sameAs": [
+              "https://webflow.com/apps/detail/instant-ai-chatbot",
+              "https://wordpress.org/plugins/ultimo-bots/",
+              "https://wix.to/89ZoJRg"
+            ],
+            "slogan": "Swiss-made agentic AI for customer service, ready in two minutes.",
+            "foundingLocation": "Switzerland",
+            "keywords": [
+              "agentic AI",
+              "customer service automation",
+              "AI agents",
+              "multi-agent workflows",
+              "subscription management AI",
+              "appointment booking AI",
+              "device troubleshooting chatbot",
+              "Webflow AI app",
+              "Wix AI app",
+              "WordPress AI plugin"
+            ]
+          },
+
+          {
+            "@type": "HowTo",
+            "name": "Create your AI agent in two minutes with Ultimo Bots",
+            "inLanguage": "en",
+            "description": "Simple steps to create and launch an agentic AI assistant that can book appointments, adjust subscriptions and resolve customer issues without any coding or AI knowledge.",
+            "totalTime": "PT2M",
+            "supply": "Your website URL or your documents",
+            "tool": ["Ultimo Bots onboarding flow"],
+            "step": [
+              {
+                "@type": "HowToStep",
+                "name": "Visit the onboarding flow",
+                "url": "https://portal.ultimo-bots.com",
+                "text": "Open the Ultimo Bots onboarding page and start for free. No prior agentic AI or coding experience is needed."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Enter your website URL or documents",
+                "text": "Provide the link to your site or upload documents so the agent can learn your content automatically."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Define what your agent should do",
+                "text": "Tell Ultimo Bots which tasks to automate, such as appointment booking, subscription changes or device troubleshooting."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Test your agent",
+                "text": "Chat with your agent after training, including multi-step requests like rescheduling a call or fixing a billing issue."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Match your brand",
+                "text": "Adjust colors, icon, position and behavior so the agent looks and sounds exactly like your brand."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Integrate and go live",
+                "text": "Embed with a single line or use the native apps for Wix, Webflow and WordPress for instant integration. The agent is ready in about two minutes."
+              }
+            ]
+          },
+
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://ultimo-bots.com/#app",
+            "name": "Ultimo Bots agentic AI platform",
+            "applicationCategory": "Customer Service, Agentic AI",
+            "operatingSystem": "Web",
+            "inLanguage": "en",
+            "description": "Ultimo Bots is an agentic AI platform that lets businesses create multi-agent customer service assistants able to book appointments, adjust subscription plans and fix customer issues through secure tool integrations. It offers the fastest setup on the market, advanced anti-hallucination protocols and deep brand customisation.",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://ultimo-bots.com/#pricing",
+              "priceCurrency": "USD",
+              "category": "agentic AI subscriptions"
+            },
+            "featureList": [
+              "Multi-agent workflows for complex customer requests",
+              "Fastest AI agent setup, live in two minutes",
+              "Native apps for Webflow, WordPress and Wix",
+              "Agentic integrations for Stripe, calendars and more",
+              "Multi-layered hallucination protection",
+              "Free integration and setup calls",
+              "Full design and behavior customisation",
+              "Optimised pricing for small businesses"
+            ],
+            "audience": {
+              "@type": "Audience",
+              "audienceType": [
+                "Small businesses",
+                "Growing online shops",
+                "Service-based companies",
+                "SaaS and subscription businesses"
+              ]
+            }
+          },
+
+          {
+            "@type": "Product",
+            "name": "Ultimo Bots subscriptions",
+            "description": "Flexible plans for creating and managing agentic AI customer service agents with fast setup, multi-agent orchestration and simple control, especially attractive for small businesses due to competitive pricing.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Ultimo Bots"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Smart",
+                "price": "29.00",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://ultimo-bots.com/#pricing",
+                "description": "Best for starter use and small businesses. Five hundred messages per month, unlimited documents with five megabytes total, one custom behavior, warm lead capture, website integration and access to agentic workflows for simple automation."
+              },
+              {
+                "@type": "Offer",
+                "name": "Boost",
+                "price": "59.00",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://ultimo-bots.com/#pricing",
+                "description": "For growing teams. Two thousand messages per month, unlimited documents with fifteen megabytes total, three custom behaviors, warm lead capture, website integration, monthly automatic rescraping and extended agentic tools such as bookings and subscription changes."
+              },
+              {
+                "@type": "Offer",
+                "name": "Ultimo",
+                "price": "149.00",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://ultimo-bots.com/#pricing",
+                "description": "Full power plan for larger volumes. Ten thousand messages per month, unlimited documents with fifty megabytes total, ten custom behaviors, warm lead capture, website integration, daily automatic rescraping and advanced multi-agent workflows for complex customer service automation."
+              }
+            ]
+          },
+
+          {
+            "@type": "ItemList",
+            "name": "Ultimo Bots integrations",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "Wix",
+                  "applicationCategory": "Website builder",
+                  "url": "https://wix.to/89ZoJRg",
+                  "description": "Add Ultimo Bots to your Wix site with the official, top-rated native app for agentic AI customer support."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "Webflow",
+                  "applicationCategory": "Website builder",
+                  "url": "https://webflow.com/apps/detail/instant-ai-chatbot",
+                  "description": "Embed your agentic AI assistant in Webflow with the best-rated marketplace app for automated customer service."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "Zapier",
+                  "applicationCategory": "Automation",
+                  "description": "Connect Ultimo Bots with thousands of tools to run multi-agent workflows and automate operations across your stack."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "WordPress",
+                  "applicationCategory": "CMS",
+                  "url": "https://wordpress.org/plugins/ultimo-bots",
+                  "description": "Install the official WordPress plugin from the directory and deploy a native agentic AI assistant on your site."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "WhatsApp and Meta",
+                  "applicationCategory": "Messaging",
+                  "description": "Let visitors chat with your agentic AI assistant through WhatsApp and Messenger for always-on support."
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "SoftwareApplication",
+                  "name": "Shopify",
+                  "applicationCategory": "Ecommerce",
+                  "description": "Deploy agents to your store with a simple setup to answer questions, upsell and support customers in real time."
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do I need to know how to code to use Ultimo Bots?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No coding is needed. The onboarding flow is designed so anyone can create a powerful agentic AI assistant in about two minutes with clicks only."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What kind of customer requests can Ultimo Bots handle?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ultimo Bots can run agentic workflows to book appointments, adjust subscription plans, answer account questions, troubleshoot customer device issues and route or escalate complex cases, depending on the tools and integrations you connect."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How fast is the setup compared to other AI tools?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ultimo Bots focuses on the fastest setup on the market. In most cases, you can go from sign-up to a live agent on your website in around two minutes by entering your URL, testing the agent and embedding the widget."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How does Ultimo Bots reduce hallucinations?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ultimo Bots uses multi-agent security protocols and source-first retrieval so answers are grounded in your content. When information is missing or unclear, the agent is guided to say it does not know or escalate, instead of inventing facts."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Ultimo Bots suitable for small businesses?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Ultimo Bots is especially attractive for small businesses because it offers advanced agentic AI features at very competitive prices, while many platforms with similar capabilities are significantly more expensive."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I train my assistant with my website, documents or FAQs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Add your website URL, upload files such as PDF or simply add FAQs. The assistant learns from this content to answer questions and to automate customer service workflows."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I integrate the assistant into my site?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use a single line embed code or the native apps for Wix and Webflow. The official WordPress plugin is also available for instant integration on WordPress."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I change how the assistant looks and behaves?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Ultimo Bots offers extensive design and behavior customisation. You can configure colors, logos, icon, position, welcome copy, tone of voice and task behavior so the agent matches your brand better than on most other platforms."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my data secure?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Data is hosted under strict European privacy expectations, with Swiss and GDPR-aligned practices. Your content is private, controlled by you and can be removed at any time."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is there a free trial and onboarding support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Ultimo Bots offers a free trial on all plans and free integration and setup calls so you can install the platform instantly and get help from the support team if needed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is customer support rated?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ultimo Bots is consistently rated highly for its responsive and helpful support across platforms such as Wix, Webflow and WordPress, including free setup help and ongoing guidance."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Ultimo Bots work on mobile devices?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The chat experience is responsive and smooth on desktop, tablet, smartphone and any other device."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the chatbot detect and respond in any language?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Ultimo Bots automatically detects the visitor’s language and responds fluently in it, so you can support customers in multiple markets from one assistant."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What counts as one message?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "One message equals a pair of user input and bot response. For example, when a visitor asks a question and the bot answers, that counts as one message."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "I need help with integration.",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We are happy to help and offer free integration and setup support. Book a session directly at https://calendly.com/build-ultimo-bots/integration_support."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I get notifications when the message limits run out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. At 80 percent of your message limit, you will receive a notification and can easily buy additional messages if needed."
+                }
+              }
+            ]
+          }
+        ]
+      }
+          </script><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;">The highest-rated AI chatbot for WordPress websites</p></next-route-announcer><script id="gtm" data-nscript="lazyOnload">
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-K8K5WZKH');
+          </script><script src="./wordpress_files/bundle.js.download" data-nscript="lazyOnload"></script><script src="./wordpress_files/company-0c64bc8e13a0ecd3.js.download"></script><script src="./wordpress_files/wordpress-0b00b23ce4620e2e.js.download"></script><script src="./wordpress_files/blog-c2d9a23502a8db59.js.download"></script><div data-mote-read-aloud-ignore="" id="mote-floating-sidebar-root"><template shadowrootmode="open"><div class="inject-react-anywhere-mounted-into"><div class="sc-bSlUec tzJZy shadow-content"></div></div><div><style>.inject-react-anywhere-mounted-into, .inject-react-anywhere-mounted-into::before, .inject-react-anywhere-mounted-into::after {all: initial;}</style><style data-styled="active"></style></div></template></div><div data-mote-read-aloud-ignore="" id="mote-read-aloud-floating-player-root"><template shadowrootmode="open"><div class="inject-react-anywhere-mounted-into"></div><div><style>.inject-react-anywhere-mounted-into, .inject-react-anywhere-mounted-into::before, .inject-react-anywhere-mounted-into::after {all: initial;}</style></div></template></div><script src="./wordpress_files/wix-549c95e443f259a5.js.download"></script><div id="chat-widget-container" data-user-id="17484411083762250247QKLKy" lang="en" style="position: fixed; top: 0px; left: 0px; width: 0px; height: 0px; z-index: 2147483647; pointer-events: none; --saicf-font-family: &#39;Roboto&#39;, sans-serif; --widget-size: 52px;"><template shadowrootmode="open"><style>
+    /**********************************************************
+     * Embedded widget.css (now isolated to this Shadow DOM)
+     **********************************************************/
+
+    /* ───────── FULL ISOLATION: kill any inherited styles ───────── */
+    :host {
+      all: initial;
+      box-sizing: border-box;
+      font-family: var(--saicf-font-family, "DM Sans", sans-serif);
+      z-index: 2147483647 !important;
+      position: fixed !important;   /* 👈 add this */
+      top: 0; left: 0; width: 0; height: 0;
+      pointer-events: none;
+    }
+
+    .saicf-chat-window,
+    .saicf-chat-widget-icon,
+    .saicf-pop-up-container { pointer-events: auto; }
+
+    /* keep border‑box for everything inside */
+    :host *, :host *::before, :host *::after {
+      box-sizing: inherit;
+    }
+
+    :host, .saicf-chat-window, .saicf-chat-window * {
+      font-family: var(--saicf-font-family, "DM Sans", sans-serif) !important;
+    }
+
+    :host {
+      --widget-size: 80px; /* fallback – will be overwritten by JS */
+    }
+
+    .saicf-chat-window p {
+      line-height: 1.3 !important;
+      font-size: 15px !important;
+    }
+    .saicf-chat-widget-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 36px;
+      z-index: 999998 !important;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .pulsing {
+      animation: pulse 2s infinite;
+    }
+    .saicf-chat-title {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .saicf-chat-window {
+      position: fixed;
+      bottom: 12px;
+      right: 12px;
+      width: 430px;
+      height: 620px;
+      background-color: transparent;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      display: flex !important;
+      flex-direction: column;
+      z-index: 2147483647 !important;
+      opacity: 0;
+      transform: translateY(100%);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    .saicf-chat-window.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .hidden {
+      display: none !important;
+    }
+    .saicf-chat-header {
+      color: white;
+      padding: 10px 15px;
+      border-radius: 16px 16px 0px 0px;
+      display: flex;
+      flex-direction: column;
+    }
+    .saicf-chat-header-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .saicf-logo-message-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .saicf-close-btn {
+      background: none;
+      border: none;
+      color: rgb(218, 43, 43);
+      margin: 0;
+      padding: 0;
+      outline: none;
+      cursor: pointer;
+    }
+    .saicf-close-chat-widget-icon {
+      cursor: pointer;
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+    .saicf-close-chat-widget-icon .fa-xmark,
+    .saicf-close-chat-widget-icon svg {
+      font-size: 1.6rem;   /* or whatever looks right */
+    }
+    .saicf-close-chat-widget-icon:hover {
+      transform: scale(1.2);
+    }
+    .saicf-chat-body-wrapper {
+      position: relative;
+      flex: 1 1 auto;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .saicf-chat-body {
+      flex: 1;
+      padding: 8px;
+      padding-top: 0;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      position: relative;
+    }
+    .saicf-scroll-to-bottom-btn {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid #e0e0e0;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      z-index: 10;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease, background-color 0.2s;
+      padding: 0;
+      margin: 0;
+      outline: none;
+    }
+    .saicf-scroll-to-bottom-btn.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .saicf-scroll-to-bottom-btn:hover {
+      background-color: #f5f5f5;
+    }
+    .saicf-chat-footer {
+      display: flex;
+      flex-direction: column;
+      // padding: 10px;
+      background-color: white;
+      gap: 8px;
+    }
+    .saicf-powered-by {
+      display: flex;
+      justify-content: center;
+    }
+    .saicf-powered-by-text {
+      font-size: 10px;
+      color: rgb(146, 146, 146);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .saicf-input-send-container {
+      display: flex;
+      border-top: 1px solid #f1f1f1;
+      padding: 10px;
+      background-color: #fafafa;
+      align-items: flex-end;
+    }
+    .saicf-chat-footer textarea {
+      flex: 1 !important;
+      padding: 10px !important;
+      border: 1px solid #ccc !important;
+      border-radius: 8px !important;
+      outline: none !important;
+      font-size: 16px !important;
+      font-family: inherit !important;
+      resize: none !important;
+      line-height: 24px !important;
+      max-height: 140px !important;
+      overflow-y: hidden !important;
+      box-sizing: border-box !important;
+    }
+    .saicf-chat-footer textarea.has-overflow {
+      overflow-y: auto !important;
+    }
+    .saicf-chat-footer button {
+      display: flex;
+      align-items: center;
+      margin-left: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, transform 0.2s ease;
+      height: 44px;
+      min-height: 44px;
+      align-self: flex-end;
+    }
+    .saicf-chat-footer button:hover {
+      background-color: #0595d3;
+      transform: translateY(-1.5px);
+    }
+    .saicf-message-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0px;
+      margin: 6px 0;
+    }
+    .saicf-message-row.user {
+      justify-content: flex-end;
+    }
+    .saicf-message-row.user .saicf-widget-message {
+      margin-left: auto;
+    }
+    .saicf-message-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      background-color: rgba(0,0,0,0.05);
+      border: 1px solid rgba(0,0,0,0.08);
+      flex-shrink: 0;
+      margin-top: 7px;
+    }
+
+    .saicf-widget-message {
+      max-width: 80%;
+      margin: 5px 0;
+      padding: 5px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    .saicf-message-row.bot .saicf-widget-message {
+      max-width: calc(100% - 48px);
+    }
+    .widget-user-message {
+      align-self: flex-end !important;
+      color: white !important;
+      border-radius: 8px !important;
+      padding: 8px !important;
+      font-size: 15px !important;
+    }
+    .widget-bot-message {
+      align-self: flex-start !important;
+      background-color: #ffffff !important;
+      color: rgb(43, 43, 43) !important;
+      border-radius: 8px;
+      font-size: 15px !important;
+    }
+    /* Headings inside bot bubbles: same size as paragraph */
+    .widget-bot-message h1,
+    .widget-bot-message h2,
+    .widget-bot-message h3,
+    .widget-bot-message h4,
+    .widget-bot-message h5,
+    .widget-bot-message h6 {
+      font-size: 1em !important;
+      line-height: inherit !important;
+      margin: 0 0 .9em !important;
+    }
+    .widget-bot-message strong {
+      color: rgb(57, 57, 57);
+    }
+    .widget-bot-message ul li:not(:last-child) {
+      margin-bottom: 6px;
+    }
+    .widget-user-message > :first-child,
+    .widget-bot-message > :first-child {
+      margin-top: 0;
+    }
+    .widget-user-message > :last-child,
+    .widget-bot-message > :last-child {
+      margin-bottom: 0;
+    }
+    /* Headings inside user bubbles: same size as paragraph */
+    .widget-user-message h1,
+    .widget-user-message h2,
+    .widget-user-message h3,
+    .widget-user-message h4,
+    .widget-user-message h5,
+    .widget-user-message h6 {
+      font-size: 1em !important;
+      line-height: inherit !important;
+      margin: 0 0 .9em !important;
+    }
+    .saicf-widget-send-icon {
+      font-size: 18px;
+      font-style: normal;
+    }
+    .saicf-loading-row {
+      display: flex;
+      justify-content: flex-start;
+      margin: 6px 0;
+    }
+    .saicf-loading-dots {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      height: 40px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .saicf-loading-dots div {
+      width: 8px;
+      height: 8px;
+      margin: 0 4px;
+      border-radius: 50%;
+      animation: loading 0.6s infinite alternate;
+    }
+    @keyframes loading {
+      to {
+        opacity: 0.3;
+        transform: translateY(-8px);
+      }
+    }
+    .saicf-loading-dots div:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .saicf-loading-dots div:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    .saicf-chat-widget-icon.align-left {
+      left: 25px !important;
+      right: auto !important;
+    }
+    .saicf-chat-widget-icon.elevated {
+      bottom: 70px !important;
+    }
+    .saicf-chat-window.align-left {
+      left: 20px !important;
+      right: auto !important;
+    }
+    .saicf-chat-window.elevated {
+      bottom: 12px !important;
+    }
+    .saicf-widget-message table {
+      border-collapse: separate;
+      border-spacing: 0px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 100%;
+      overflow: auto;
+    }
+    .saicf-widget-message th, .saicf-widget-message td {
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      padding: .35rem .50rem;
+      text-align: left;
+      font-size: 14px;
+    }
+    .saicf-widget-message th {
+      color: #000000;
+      background-color: rgba(0, 0, 0, 0.06);
+      border-right: 0;
+      padding: .5rem .50rem;
+      border-bottom: none;
+    }
+    .saicf-widget-message th:last-child {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .saicf-widget-message td {
+      border-bottom: 0px solid rgba(0, 0, 0, 0.08);
+      border-right: 0px solid rgba(0, 0, 0, 0.08);
+    }
+    .saicf-widget-message td:last-child {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .saicf-widget-message tr:first-child th:first-child {
+      border-top-left-radius: 8px;
+    }
+    .saicf-widget-message tr:first-child th:last-child {
+      border-top-right-radius: 8px;
+    }
+    .saicf-widget-message tr:last-child td:first-child {
+      border-bottom-left-radius: 8px;
+    }
+    .saicf-widget-message tr:last-child td:last-child {
+      border-bottom-right-radius: 8px;
+    }
+    .saicf-widget-message tr:last-child td {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    /**********************************************************
+     * Pop-up message styles
+     **********************************************************/
+    .saicf-pop-up-container {
+      position: fixed;
+      right: 20px;
+      bottom: calc(30px + var(--widget-size));
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 999999;
+    }
+    .saicf-pop-up-container.hidden {
+      pointer-events: none;
+    }
+    .saicf-pop-up-container.align-left {
+      left: 25px !important;
+      right: auto !important;
+    }
+
+    .saicf-pop-up-container.elevated {
+      bottom: calc(80px + var(--widget-size));   /* 55 px (icon) + 10 px gap */
+    }
+
+    .saicf-pop-up-message {
+      background:rgb(250, 250, 250);
+      padding: 8px 12px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      font-size: 16px;
+      color: #000000;
+      max-width: 320px;
+      line-height: 1.3;
+      border: 1px solid rgb(232, 232, 232);
+      cursor: pointer;
+    }
+    .saicf-pop-up-close{
+      background:none;
+      border:none;
+      outline:none;
+      font-weight:500;
+      color:rgb(163,163,163);
+      align-self:flex-end;
+      cursor:pointer;
+      margin-bottom:0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .saicf-pop-up-close:hover{
+      transform: scale(1.05);
+    }
+
+    .saicf-pop-up-close{
+      opacity:0;
+      pointer-events:none;
+    }
+    .saicf-pop-up-close.show{
+      opacity:1;
+      pointer-events:auto;
+    }
+
+    .saicf-pop-up-message{
+      opacity:0;
+      transform:translateY(6px);
+      transition:opacity .4s ease, transform .4s ease;
+    }
+    .saicf-pop-up-message.show{
+      opacity:1;
+      transform:translateY(0);
+    }
+
+    /* ───────── predefined-question chips ───────── */
+    .saicf-predefined-container{
+      display:flex;
+      flex-wrap:wrap-reverse;
+      justify-content: flex-end;
+      gap:8px;
+      padding:6px 10px;
+      padding-bottom: 0;
+      background: white;
+    }
+
+    .saicf-predefined-container::-webkit-scrollbar{display:none;}
+
+    .saicf-predefined-question{
+      flex:0 0 auto;
+      border: 1px solid #e8e8e8ff;
+      background: transparent;
+      color:#333;
+      border-radius:20px;
+      padding:6px 12px;
+      font-size:14px;
+      white-space:nowrap;
+      cursor:pointer;
+      transition:background-color .25s,transform .2s;
+    }
+    .saicf-predefined-question:hover{
+      background: #f1f1f1ff;
+      transform:translateY(-1px);
+    }
+
+    /* ——— busy/disabled visuals ——— */
+    .saicf-send-message[disabled] {
+      opacity: .5 !important;
+      cursor: not-allowed !important;
+    }
+    .saicf-chat-footer textarea:disabled {
+      background: #f5f5f5 !important;
+      cursor: not-allowed !important;
+    }
+    .saicf-predefined-question.is-disabled {
+      opacity: .5 !important;
+      pointer-events: none !important;
+    }
+
+    /* ───────── Header actions: close "X" + three-dots menu ───────── */
+    .saicf-header-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      position: relative; /* anchor menu below */
+    }
+
+    .saicf-ellipsis-btn {
+      background: none;
+      border: none;
+      color: inherit;
+      padding: 4px;
+      margin: 0;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background-color .2s ease, transform .2s ease;
+      font-size: 20px;
+    }
+    .saicf-ellipsis-btn:hover { transform: scale(1.08); }
+    .saicf-ellipsis-btn svg { width: 1.4em; height: 1.4em; display: block; }
+
+    .saicf-menu {
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      min-width: 160px;
+      background: #fff;
+      color: #1f2937;
+      border: 1px solid rgba(0,0,0,.08);
+      box-shadow: 0 8px 24px rgba(0,0,0,.15);
+      border-radius: 10px;
+      padding: 6px;
+      z-index: 2147483647; /* above header */
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-6px);
+      transition: opacity .15s ease, transform .15s ease;
+    }
+    .saicf-menu.is-open {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .saicf-menu-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border: 0;
+      background: transparent;
+      font: inherit;
+      color: inherit;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .saicf-menu-item:hover { background: #f3f4f6; }
+
+    .saicf-menu-item svg { width: 1em; height: 1em; display: block; }
+
+    @media (min-width: 769px) {
+      .saicf-chat-window {
+        width: min(430px, calc(100svw - 24px));
+        height: min(620px, calc(100svh - 24px));
+        max-height: calc(100svh - 24px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* Hide the dim overlay; the window itself covers the screen */
+      .saicf-chat-overlay {
+        display: none !important;
+      }
+
+      /* Fullscreen chat window (slides up when .show is added) */
+      .saicf-chat-window {
+        position: fixed !important;
+        inset: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 0 !important;
+        background: #ffffff !important;
+        opacity: 0 !important;
+        transform: translateY(100%) !important;
+        transition: opacity 0.75s ease, transform 0.75s ease !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+
+      /* When opened */
+      .saicf-chat-window.show {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+
+      /* Internal pieces tuned for fullscreen */
+      .saicf-chat-window .saicf-chat-header {
+        border-radius: 0 !important;
+      }
+
+      .saicf-chat-header {
+        padding: 12px 10px;
+        margin-bottom: 5px;
+      }
+      .saicf-chat-window .saicf-chat-body {
+        flex: 1 1 auto !important;
+        min-height: 0 !important;
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+
+      /* Keep your existing mobile sizing for other bits */
+      .saicf-close-chat-widget-icon {
+        font-size: 22px;
+      }
+      .saicf-chat-title {
+        font-size: 18px;
+      }
+      .widget-user-message,
+      .widget-bot-message {
+        font-size: 17px;
+      }
+      .saicf-chat-widget-icon {
+        width: 70px;
+        height: 70px;
+      }
+      .saicf-pop-up-container {
+        right: 20px;
+        bottom: calc(30px + var(--widget-size));
+      }
+      .saicf-pop-up-container.align-left {
+        left: 20px !important;
+        right: auto !important;
+      }
+      .saicf-pop-up-message {
+        padding: 7px 10px;
+        font-size: 14px;
+      }
+      .saicf-chat-window.align-left {
+        left: 0 !important;
+        right: 0 !important;
+      }
+    }
+
+    /* ───────── Loading Spinner ───────── */
+    .saicf-config-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      background: #fff;
+      min-height: 0;
+      border-radius: 0 0 16px 16px;
+    }
+
+    .saicf-config-spinner {
+      width: 32px;
+      height: 32px;
+      color: #5616ea;
+      animation: saicf-spin 1s linear infinite;
+    }
+
+    @keyframes saicf-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ───────── Pre-chat Form ───────── */
+    .saicf-pre-chat-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 30px 24px;
+      flex: 1 1 0%;
+      width: 100%;
+      min-height: 0;
+      text-align: center;
+      background: #fff;
+      overflow-y: auto;
+      border-radius: 0 0 16px 16px;
+    }
+
+    .saicf-pre-chat-header {
+      margin-bottom: 24px;
+      flex-shrink: 0;
+    }
+
+    .saicf-pre-chat-icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 12px;
+      color: #5616ea;
+    }
+
+    .saicf-pre-chat-header h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #333;
+      margin: 0 0 6px 0;
+    }
+
+    .saicf-pre-chat-header p {
+      font-size: 14px;
+      color: #666;
+      margin: 0;
+    }
+
+    .saicf-pre-chat-fields {
+      width: 100%;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .saicf-pre-chat-field {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .saicf-pre-chat-field label {
+      font-size: 13px;
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 5px;
+      text-transform: capitalize;
+    }
+
+    .saicf-pre-chat-field input {
+      padding: 11px 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 15px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .saicf-pre-chat-field input:focus {
+      border-color: currentColor;
+    }
+
+    .saicf-pre-chat-field input:disabled {
+      background-color: #f5f5f5;
+      cursor: not-allowed;
+    }
+
+    .saicf-pre-chat-field input::placeholder {
+      color: #999;
+    }
+
+    .saicf-pre-chat-submit {
+      background-color: #5616ea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 28px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-width: 140px;
+      font-family: inherit;
+    }
+
+    .saicf-pre-chat-submit:hover:not(:disabled) {
+      background-color: #4512c4;
+      transform: translateY(-1px);
+    }
+
+    .saicf-pre-chat-submit:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .saicf-pre-chat-submit .saicf-btn-spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: saicf-spin 0.8s linear infinite;
+    }
+
+    @media (max-width: 768px) {
+      .saicf-pre-chat-container {
+        padding: 24px 20px;
+      }
+
+      .saicf-pre-chat-icon {
+        width: 40px;
+        height: 40px;
+      }
+
+      .saicf-pre-chat-header h3 {
+        font-size: 18px;
+      }
+
+      .saicf-pre-chat-fields {
+        max-width: 100%;
+      }
+    }
+  </style><div id="widget-root"><div class="saicf-chat-widget-icon pulsing" style="background-color: rgb(94, 27, 255); padding-bottom: 1px; border-radius: 50%; height: 52px; width: 52px;">
+<div style="display:flex; justify-content:center; align-items:center; background-color: transparent; padding-top: 3px">
+  <svg xmlns="http://www.w3.org/2000/svg" width="65%" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+    <path fill-rule="evenodd" d="M12 2.25c-2.429 0-4.817.178-7.152.521C2.87 3.061 1.5 4.795 1.5 6.741v6.018c0 1.946 1.37 3.68 3.348 3.97.877.129 1.761.234 2.652.316V21a.75.75 0 0 0 1.28.53l4.184-4.183a.39.39 0 0 1 .266-.112c2.006-.05 3.982-.22 5.922-.506 1.978-.29 3.348-2.023 3.348-3.97V6.741c0-1.947-1.37-3.68-3.348-3.97A49.145 49.145 0 0 0 12 2.25ZM8.25 8.625a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Zm2.625 1.125a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm4.875-1.125a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z" clip-rule="evenodd"></path>
+  </svg>
+</div>
+</div><div class="saicf-chat-overlay hidden"></div><div class="saicf-chat-window hidden">
+    
+    <div class="saicf-chat-header" style="background-color:#5e1bff;">
+      <div class="saicf-chat-header-title">
+        <div class="saicf-logo-message-container">
+          <img src="https://scfimages.blob.core.windows.net/images/b599dee7-ff7b-49bd-b48d-5dd8cebf9e15.png" alt="Chat Logo" style="height:30px;width:30px;border-radius:50%;object-fit:cover;">
+          <span class="saicf-chat-title" style="color:#ffffff;">We love smart AI Agents!</span>
+        </div>
+
+        <div class="saicf-header-actions" aria-label="Chat actions">
+          <!-- three dots -->
+          <button class="saicf-ellipsis-btn" aria-label="More actions" title="More">
+            <svg viewBox="0 0 448 512" fill="#ffffff">
+              <path d="M120 256a56 56 0 1 1-112 0 56 56 0 1 1 112 0zm160 0a56 56 0 1 1-112 0 56 56 0 1 1 112 0zm160 0a56 56 0 1 1-112 0 56 56 0 1 1 112 0z"></path>
+            </svg>
+          </button>
+
+          <!-- close X (unchanged) -->
+          <button class="saicf-close-btn saicf-close-chat-widget-icon" aria-label="Close chat" style="color:#ffffff;">
+            <svg viewBox="0 0 384 512" style="height:32px;width:32px;fill:currentColor;">
+              <path d="M310.6 361.4 233.3 284l77.3-77.3c12.5-12.5 12.5-32.8 0-45.3-12.5-12.5-32.8-12.5-45.3 0L188 238.7 110.7 161.4c-12.5-12.5-32.8-12.5-45.3 0-12.5 12.5-12.5 32.8 0 45.3l77.3 77.3-77.3 77.3c-12.5 12.5-12.5 32.8 0 45.3 12.5 12.5 32.8 12.5 45.3 0L188 327.3l77.3 77.3c12.5 12.5 32.8 12.5 45.3 0 12.5-12.5 12.5-32.8 0-45.3z"></path>
+            </svg>
+          </button>
+
+          <!-- dropdown menu -->
+          <div class="saicf-menu" role="menu" hidden="">
+            <button class="saicf-menu-item saicf-menu-item--clear" role="menuitem">
+              <svg viewBox="0 0 448 512" fill="currentColor">
+                <path d="M135.2 17.7c2.9-10.7 12.7-17.7 23.8-17.7h129.9c11.1 0 20.9 7.1 23.8 17.7L328 32H432c8.8 0 16 7.2 16 16s-7.2 16-16 16H416 32 16C7.2 64 0 56.8 0 48S7.2 32 16 32H120l15.2-14.3zM64 96H384l-21.2 355.9c-1.5 25.1-22.3 44.1-47.4 44.1H132.6c-25.1 0-45.9-19-47.4-44.1L64 96z"></path>
+              </svg>
+              Clear chat
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="saicf-config-loading hidden">
+      <svg class="saicf-config-spinner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor">
+        <path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z"></path>
+      </svg>
+    </div>
+    <div class="saicf-pre-chat-container hidden">
+      <div class="saicf-pre-chat-header">
+        <svg class="saicf-pre-chat-icon" viewBox="0 0 640 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8l-.2 .2 0 0 0 0C1 327.2-1.4 334.4 .8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.3-11.4C134.1 343.3 169.8 352 208 352zM448 176c0 112.3-99.1 196.9-216.5 207C255.8 457.4 336.4 512 432 512c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9l0 0 0 0-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1 .6 10.3 .6 15.5z"></path>
+        </svg>
+        <h3>Before we start chatting</h3>
+        <p>Please provide your details to continue</p>
+      </div>
+      <div class="saicf-pre-chat-fields"></div>
+      <button class="saicf-pre-chat-submit" disabled="">Start Chat</button>
+    </div>
+    <div class="saicf-chat-body-wrapper"><div class="saicf-chat-body"><div style="flex-shrink: 0;"></div><div></div></div><button class="saicf-scroll-to-bottom-btn" aria-label="Scroll to latest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="14" height="14"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" fill="currentColor"></path></svg></button></div>
+    <div class="saicf-chat-footer">
+      <div class="saicf-predefined-container"><div class="saicf-predefined-question">Prices?</div><div class="saicf-predefined-question">Can I cancel anytime?</div><div class="saicf-predefined-question">Integrations?</div></div>
+      
+        <div class="saicf-powered-by">
+          <a class="saicf-powered-by-text" href="https://www.ultimo-bots.com/" target="_blank" rel="noopener" title="With Ultimo Bots, we have made it easier than ever to get in touch and get help.">
+            Powered by Ultimo Bots
+          </a>
+        </div>
+      
+      <div class="saicf-input-send-container">
+        <textarea class="saicf-chat-input" placeholder="Enter your message" rows="1"></textarea>
+        <button class="saicf-send-message" style="background-color:#5e1bff;" aria-label="Send message">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 16px; height: 16px; fill: #ffffff;">
+            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0L7 203.6c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 140.3V464c0 17.7 14.3 32 32 32s32-14.3 32-32V140.3l107.6 108.7c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L214.6 41.4z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div><div class="saicf-pop-up-container hidden"><button class="saicf-pop-up-close" aria-label="Close pop-up message" style="background-color: rgb(94, 27, 255); color: rgb(255, 255, 255); border-radius: 50%; padding: 0px; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">
+    <svg viewBox="0 0 384 512" style="height:1.5em; width:1.5em; fill:currentColor; margin-bottom: 2px;">
+      <path d="M310.6 361.4 233.3 284l77.3-77.3c12.5-12.5 12.5-32.8 0-45.3-12.5-12.5-32.8-12.5-45.3 0L188 238.7 110.7 161.4c-12.5-12.5-32.8-12.5-45.3 0-12.5 12.5-12.5 32.8 0 45.3l77.3 77.3-77.3 77.3c-12.5 12.5-12.5 32.8 0 45.3 12.5 12.5 32.8 12.5 45.3 0L188 327.3l77.3 77.3c12.5 12.5 32.8 12.5 45.3 0 12.5-12.5 12.5-32.8 0-45.3z"></path>
+    </svg>
+  </button><div class="saicf-pop-up-message">Hi 👋 how can I help you?</div></div></div><style>
+    .saicf-chat-footer button:hover {
+      background-color: #4916c0 !important;
+    }
+    .widget-user-message {
+      background-color: #5e1bff !important;
+    }
+    .saicf-loading-dots div {
+      background-color: #5e1bff !important;
+    }
+    .saicf-config-spinner {
+      color: #5e1bff;
+    }
+    .saicf-pre-chat-submit {
+      background-color: #5e1bff !important;
+    }
+    .saicf-pre-chat-submit:hover:not(:disabled) {
+      background-color: #4916c0 !important;
+    }
+    .saicf-pre-chat-icon {
+      fill: #5e1bff;
+    }
+    .saicf-pre-chat-field input:focus {
+      border-color: #5e1bff;
+      box-shadow: 0 0 0 3px #5e1bff22;
+    }
+  </style></template></div><a href="https://www.ultimo-bots.com/" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center; font-size: 4px; opacity: 0.9; text-decoration: none; color: rgb(85, 85, 85); margin: 0px; padding: 2px 0px;">With Ultimo Bots, we have made it easier than ever to get in touch and get help.</a><script src="./wordpress_files/pricing-605d620a1807fd15.js.download"></script><script src="./wordpress_files/referral-a68ef85adc992ad3.js.download"></script><script src="./wordpress_files/imprint-f7c565386070b76a.js.download"></script><script src="./wordpress_files/terms-faf6c87553e06558.js.download"></script><script src="./wordpress_files/privacy-e10a1fc5bef4efd9.js.download"></script><script id="pricing-structured-data" type="application/ld+json" data-nscript="afterInteractive">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ultimo-bots.com/pricing/#webpage","url":"https://ultimo-bots.com/pricing","name":"Pricing | Ultimo Bots","inLanguage":"en","description":"Transparent, small-business friendly pricing for Ultimo Bots, the Swiss-made agentic AI platform for automated customer service. Choose a plan to launch AI agents that book appointments, adjust subscriptions and resolve customer issues in minutes.","isPartOf":{"@type":"WebSite","@id":"https://ultimo-bots.com/#website","url":"https://ultimo-bots.com/","name":"Ultimo Bots"},"publisher":{"@type":"Organization","@id":"https://ultimo-bots.com/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://ultimo-bots.com/og-preview.png"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ultimo-bots.com/"},{"@type":"ListItem","position":2,"name":"Pricing","item":"https://ultimo-bots.com/pricing"}]}},{"@type":"Organization","@id":"https://ultimo-bots.com/#organization","name":"Ultimo Bots","alternateName":"Agentic AI Customer Service Platform","url":"https://ultimo-bots.com","logo":{"@type":"ImageObject","url":"https://ultimo-bots.com/ultimo-bots-logo.png"},"image":"https://ultimo-bots.com/og-preview.png","description":"Ultimo Bots is a Swiss-based agentic AI platform that makes it easy for any business to launch AI agents for customer service. Create multi-agent assistants that can book appointments, adjust subscription plans and fix customer issues without coding.","sameAs":["https://www.linkedin.com/company/ultimo-bots"],"areaServed":[{"@type":"Country","name":"Switzerland"},{"@type":"Country","name":"Germany"},{"@type":"Country","name":"Austria"},{"@type":"Country","name":"France"},{"@type":"Country","name":"Italy"},{"@type":"Country","name":"Other European countries"}],"knowsAbout":["agentic AI","multi-agent operations","customer support automation","subscription management automation","calendar and booking automation","device troubleshooting assistants","small business AI pricing"]},{"@type":"OfferCatalog","@id":"https://ultimo-bots.com/pricing/#plans","name":"Ultimo Bots Plans","url":"https://ultimo-bots.com/pricing","description":"Pricing plans for Ultimo Bots’ agentic AI platform. All plans include fast setup, multi-agent workflows and brand-matched assistants, with competitive pricing especially for small businesses.","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"Product","@id":"https://ultimo-bots.com/pricing/#plan-smart","name":"Smart","image":"https://ultimo-bots.com/og-preview.png","brand":{"@type":"Brand","name":"Ultimo Bots"},"category":"SoftwareApplication","description":"Smart plan for small businesses getting started with agentic AI. Includes 500 messages/month, documents up to 5 MB, 1 custom behavior and warm lead capture to automate basic customer support.","offers":{"@type":"Offer","price":29,"priceCurrency":"USD","url":"https://portal.ultimo-bots.com","availability":"https://schema.org/InStock","priceSpecification":{"@type":"UnitPriceSpecification","price":29,"priceCurrency":"USD","unitText":"PER_MONTH","billingDuration":1,"billingIncrement":1}},"audience":{"@type":"PeopleAudience","audienceType":["Small businesses","Solopreneurs","Early-stage projects"]}}},{"@type":"ListItem","position":2,"item":{"@type":"Product","@id":"https://ultimo-bots.com/pricing/#plan-boost","name":"Boost","image":"https://ultimo-bots.com/og-preview.png","brand":{"@type":"Brand","name":"Ultimo Bots"},"category":"SoftwareApplication","description":"Boost plan for growing teams that need stronger agentic AI. Includes 2,000 messages/month, documents up to 15 MB, 3 custom behaviors, Auto-Lead Capture and monthly automatic rescraping for fresh answers.","offers":{"@type":"Offer","price":59,"priceCurrency":"USD","url":"https://portal.ultimo-bots.com","availability":"https://schema.org/InStock","priceSpecification":{"@type":"UnitPriceSpecification","price":59,"priceCurrency":"USD","unitText":"PER_MONTH","billingDuration":1,"billingIncrement":1}},"audience":{"@type":"PeopleAudience","audienceType":["Growing online businesses","Service teams","SMEs"]}}},{"@type":"ListItem","position":3,"item":{"@type":"Product","@id":"https://ultimo-bots.com/pricing/#plan-ultimo","name":"Ultimo","image":"https://ultimo-bots.com/og-preview.png","brand":{"@type":"Brand","name":"Ultimo Bots"},"category":"SoftwareApplication","description":"Ultimo plan for higher volumes and advanced multi-agent operations. Includes 10,000 messages/month, documents up to 50 MB, 10 custom behaviors, Auto-Lead Capture and daily rescraping for always up-to-date support.","offers":{"@type":"Offer","price":149,"priceCurrency":"USD","url":"https://portal.ultimo-bots.com","availability":"https://schema.org/InStock","priceSpecification":{"@type":"UnitPriceSpecification","price":149,"priceCurrency":"USD","unitText":"PER_MONTH","billingDuration":1,"billingIncrement":1}},"audience":{"@type":"PeopleAudience","audienceType":["Larger support teams","SaaS and subscription businesses","High-traffic websites"]}}}]}]}</script></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

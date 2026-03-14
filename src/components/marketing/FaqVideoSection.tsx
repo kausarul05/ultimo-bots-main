@@ -22,6 +22,7 @@ interface FaqVideoSectionProps {
     aiActions?: string[];
     mediaPosition?: "left" | "right";
     className?: string;
+    button?: boolean;
 }
 
 const defaultFaqItems: FaqItem[] = [
@@ -66,6 +67,7 @@ export function FaqVideoSection({
     faqItems = defaultFaqItems,
     aiActions = defaultAiActions,
     mediaPosition = "right",
+    button = false,
     className
 }: FaqVideoSectionProps) {
 
@@ -363,7 +365,7 @@ export function FaqVideoSection({
                         </div>
                     )}
                 </div>
-                {mediaPosition === "left" && (
+                {mediaPosition === "left" && button && (
                     <div className="flex justify-center mt-10">
                         <Button
                             asChild
