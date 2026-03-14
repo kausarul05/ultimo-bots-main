@@ -1,6 +1,8 @@
 import { FeaturesSection } from "@/components/marketing/features-section";
 import { HeroSection } from "@/components/marketing/HeroSection";
 import { FaqVideoSection } from "@/components/marketing/FaqVideoSection";
+import { TestimonialsSection } from "@/components/marketing/testimonials-section";
+import { SecuritySection } from "@/components/marketing/security-section";
 
 
 export default function Home() {
@@ -102,6 +104,24 @@ export default function Home() {
                     }
                 ]}
                 mediaPosition="left"
+            />
+
+            {/* TestimonialsSection */}
+            <TestimonialsSection
+                title="Testimonials"
+                subtitle="What people say"
+                stats={{ number: "2'000+", label: "paying customers" }}
+                countriesStat="80+ countries served"
+            />
+
+
+            {/* SecuritySection */}
+            <SecuritySection
+                title="Security"
+                subtitle="Enterprise-grade security & privacy"
+                description="We take security and compliance seriously. Ultimo Bots is GDPR aligned and built to keep your data private and safe."
+                badge="AICPA SOC 2"
+                footerText="Ultimo Bots is committed to safeguarding your data."
             />
         </div>
     );
