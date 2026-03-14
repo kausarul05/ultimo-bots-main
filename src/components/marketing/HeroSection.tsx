@@ -63,7 +63,7 @@ export function HeroSection({
 
         const parts = title.split(titleHighlight);
         return (
-            <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-[#1d1d1f] leading-18">
+            <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-[#1d1d1f] leading-18 tracking-wide">
                 {parts[0]}
                 <span className="bg-clip-text bg-gradient-to-r from-[#4510b0] to-[#5e1bff]">
                     {titleHighlight}

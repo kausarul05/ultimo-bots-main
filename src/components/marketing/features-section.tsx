@@ -23,19 +23,19 @@ interface FeaturesSectionProps {
 
 const defaultFeatures: Feature[] = [
     {
-        imageSrc: "/images/features/smart-accuracy.svg",
+        imageSrc: '/images/ultimo-bots-highlights-1.png',
         title: "Smart & Accurate",
         description: "AI that understands context and gives clear answers, not just keywords.",
         imageAlt: "Smart AI illustration"
     },
     {
-        imageSrc: "/images/features/no-code.svg",
+        imageSrc: '/images/ultimo-bots-highlights-2.png',
         title: "No-Code Integration",
         description: "Connect to your website data and go live without writing a single line of code.",
         imageAlt: "No code integration illustration"
     },
     {
-        imageSrc: "/images/features/swiss-security.svg",
+        imageSrc: '/images/ultimo-bots-highlights-3.png',
         title: "Swiss Precision & Security",
         description: "Hosted in Switzerland with full GDPR compliance and enterprise-grade privacy.",
         imageAlt: "Swiss security illustration"
@@ -77,10 +77,10 @@ export function FeaturesSection({
                     "mb-6 md:mb-6",
                     variant === "centered" ? "text-center mx-auto" : ""
                 )}>
-                    {/* Small label */}
+                    {/* Small label with dot - FIXED VERSION */}
                     <div className="mb-5">
-                        <span className="text-sm font-medium tracking-wider uppercase text-[#5e1bff] bg-[#f3efff] border border-[#eee8ff] px-2 py-1 rounded-full">
-                            <span className="w-[15px] h-[5px] bg-[#5e1bff] border rounded-full p-1"></span>
+                        <span className="inline-flex items-center gap-2 text-sm font-medium tracking-wider uppercase text-[#5e1bff] bg-[#f3efff] border border-[#eee8ff] px-3 py-1.5 rounded-full">
+                            <span className="w-2 h-2 bg-[#5e1bff] rounded-full"></span>
                             {title}
                         </span>
                     </div>
@@ -108,30 +108,29 @@ export function FeaturesSection({
                                 className="group relative"
                             >
                                 {/* Card with Image */}
-                                <div className="relative h-full bg-white rounded-2xl border border-gray-100 hover:border-transparent transition-all duration-300 hover:shadow-xl hover:shadow-[#4510b0]/5 shadow">
+                                <div className="relative h-full bg-white rounded-2xl border border-gray-100 hover:border-transparent transition-all duration-300 hover:shadow-xl hover:shadow-[#4510b0]/5 shadow-lg overflow-hidden">
 
-                                    {/* Image Container - Replacing the icon */}
-                                    <div className="mb-6 h-40 w-full relative">
+                                    {/* Image Container */}
+                                    <div className="h-64 w-full relative bg-gradient-to-br from-[#4510b0]/5 to-[#5e1bff]/5">
                                         <div className="relative w-full h-full">
-                                            {/* You can use either Next.js Image component or img tag */}
                                             <Image
                                                 src={feature.imageSrc}
                                                 alt={feature.imageAlt || feature.title}
                                                 fill
-                                                className="object-contain"
-                                                sizes=""
+                                                className="object-fill"
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             />
 
-                                            {/* Fallback if image doesn't exist - shows colored background with title initial */}
-                                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10">
-                                                <span className="text-4xl font-bold text-[#4510b0] opacity-50">
+                                            {/* Fallback if image doesn't exist */}
+                                            {/* <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10">
+                                                <span className="text-4xl font-bold text-[#4510b0] opacity-30">
                                                     {feature.title.charAt(0)}
                                                 </span>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
 
-                                    <div className="p-3">
+                                    <div className="p-6">
                                         {/* Content */}
                                         <h3 className="text-xl font-bold text-[#1d1d1f] mb-3 group-hover:text-[#4510b0] transition-colors">
                                             {feature.title}
@@ -140,10 +139,10 @@ export function FeaturesSection({
                                         <p className="text-[#5a5a5a] leading-relaxed">
                                             {feature.description}
                                         </p>
-
-                                        {/* Decorative gradient line on hover */}
-                                        <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gradient-to-r from-[#4510b0] to-[#5e1bff] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
                                     </div>
+
+                                    {/* Decorative gradient line on hover */}
+                                    <div className="absolute bottom-0 left-8 right-8 h-0.5 bg-gradient-to-r from-[#4510b0] to-[#5e1bff] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
                                 </div>
                             </div>
                         );
