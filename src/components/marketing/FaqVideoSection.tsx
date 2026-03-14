@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Play, ChevronDown, ChevronRight, UserPlus, Users, BarChart3, Repeat, MessageSquare } from "lucide-react";
 import Image from "next/image";
 import { useState, useRef } from "react";
+import { Button } from "../ui/button";
 
 interface FaqItem {
     id: string;
@@ -163,11 +164,11 @@ export function FaqVideoSection({
                             How it works
                         </span>
                     </div>
-                    
+
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1d1d1f] mb-4">
                         {title}
                     </h2>
-                    
+
                     {subtitle && (
                         <p className="text-lg text-[#5a5a5a]">
                             {subtitle}
@@ -180,8 +181,8 @@ export function FaqVideoSection({
                     "grid gap-12 lg:gap-16 grid-cols-2 items-start",
                     // When mediaPosition is "right": FAQ first (col 1), Video second (col 2)
                     // When mediaPosition is "left": Video first (col 1), FAQ second (col 2)
-                    mediaPosition === "right" 
-                        ? "lg:grid-cols-[1fr,1.2fr]" 
+                    mediaPosition === "right"
+                        ? "lg:grid-cols-[1fr,1.2fr]"
                         : "lg:grid-cols-[1.2fr,1fr]"
                 )}>
                     {/* First Column - Either FAQ or Video based on mediaPosition */}
@@ -194,7 +195,7 @@ export function FaqVideoSection({
                                     className={cn(
                                         "group border rounded-2xl transition-all duration-300 cursor-pointer",
                                         expandedId === item.id
-                                            ? "border-[#5e1bff] bg-white shadow-lg" 
+                                            ? "border-[#5e1bff] bg-white shadow-lg"
                                             : "border-[#dbd8ff] bg-white/50 hover:bg-white hover:border-[#5e1bff]/30"
                                     )}
                                     onClick={() => toggleFaq(item.id)}
@@ -209,7 +210,7 @@ export function FaqVideoSection({
                                                 {item.id}
                                             </span>
                                         </div>
-                                        
+
                                         <div className="flex-1">
                                             <div className="flex items-center justify-between">
                                                 <h3 className={cn(
@@ -220,19 +221,19 @@ export function FaqVideoSection({
                                                 </h3>
                                                 <ChevronDown className={cn(
                                                     "h-4 w-4 transition-all duration-300",
-                                                    expandedId === item.id 
-                                                        ? "rotate-180 text-[#5e1bff]" 
+                                                    expandedId === item.id
+                                                        ? "rotate-180 text-[#5e1bff]"
                                                         : "text-[#5a5a5a] group-hover:text-[#5e1bff]"
                                                 )} />
                                             </div>
-                                            
+
                                             {/* Expanded Content */}
                                             {expandedId === item.id && (
                                                 <div className="mt-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-300">
                                                     <p className="text-sm text-[#5a5a5a] leading-relaxed">
                                                         {item.description}
                                                     </p>
-                                                    
+
                                                     {item.items && item.items.length > 0 && (
                                                         <div className="space-y-2 mt-3">
                                                             {item.items.map((subItem, idx) => (
@@ -288,7 +289,7 @@ export function FaqVideoSection({
                                     className={cn(
                                         "group border rounded-2xl transition-all duration-300 cursor-pointer",
                                         expandedId === item.id
-                                            ? "border-[#5e1bff] bg-white shadow-lg" 
+                                            ? "border-[#5e1bff] bg-white shadow-lg"
                                             : "border-[#dbd8ff] bg-white/50 hover:bg-white hover:border-[#5e1bff]/30"
                                     )}
                                     onClick={() => toggleFaq(item.id)}
@@ -303,7 +304,7 @@ export function FaqVideoSection({
                                                 {item.id}
                                             </span>
                                         </div>
-                                        
+
                                         <div className="flex-1">
                                             <div className="flex items-center justify-between">
                                                 <h3 className={cn(
@@ -314,19 +315,19 @@ export function FaqVideoSection({
                                                 </h3>
                                                 <ChevronDown className={cn(
                                                     "h-4 w-4 transition-all duration-300",
-                                                    expandedId === item.id 
-                                                        ? "rotate-180 text-[#5e1bff]" 
+                                                    expandedId === item.id
+                                                        ? "rotate-180 text-[#5e1bff]"
                                                         : "text-[#5a5a5a] group-hover:text-[#5e1bff]"
                                                 )} />
                                             </div>
-                                            
+
                                             {/* Expanded Content */}
                                             {expandedId === item.id && (
                                                 <div className="mt-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-300">
                                                     <p className="text-sm text-[#5a5a5a] leading-relaxed">
                                                         {item.description}
                                                     </p>
-                                                    
+
                                                     {item.items && item.items.length > 0 && (
                                                         <div className="space-y-2 mt-3">
                                                             {item.items.map((subItem, idx) => (
@@ -362,6 +363,18 @@ export function FaqVideoSection({
                         </div>
                     )}
                 </div>
+                {mediaPosition === "left" && (
+                    <div className="flex justify-center mt-10">
+                        <Button
+                            asChild
+                            size="lg"
+                            className="bg-gradient-to-r from-[#4510b0] to-[#5e1bff] hover:from-[#5e1bff] hover:to-[#4510b0] text-white px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all m-auto"
+                        >
+                            <a href="/signup">Start Free Trial</a>
+                        </Button>
+                    </div>
+                )}
+
             </div>
         </section>
     );
