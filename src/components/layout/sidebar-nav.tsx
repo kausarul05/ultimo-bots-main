@@ -86,18 +86,18 @@ export function SidebarNav({ collapsed }: SidebarNavProps) {
                       <>
                         <li>
                           <Link
-                            href="/apps/chat"
+                            href="/apps/wordpress"
                             className="block rounded-lg px-3 py-2 text-base text-white hover:text-white hover:bg-white/10 transition-colors"
                           >
-                            Chat
+                            Wordpress
                           </Link>
                         </li>
                         <li>
                           <Link
-                            href="/apps/analytics"
+                            href="/apps/wix"
                             className="block rounded-lg px-3 py-2 text-base text-white hover:text-white hover:bg-white/10 transition-colors"
                           >
-                            Analytics
+                            Wix
                           </Link>
                         </li>
                       </>
