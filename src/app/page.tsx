@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/marketing/HeroSection";
 import { FaqVideoSection } from "@/components/marketing/FaqVideoSection";
 import { TestimonialsSection } from "@/components/marketing/testimonials-section";
 import { SecuritySection } from "@/components/marketing/security-section";
+import { CTASection } from "@/components/marketing/cta-section";
 
 
 export default function Home() {
@@ -122,6 +123,13 @@ export default function Home() {
                 description="We take security and compliance seriously. Ultimo Bots is GDPR aligned and built to keep your data private and safe."
                 badge="AICPA SOC 2"
                 footerText="Ultimo Bots is committed to safeguarding your data."
+            />
+
+            <CTASection
+                title="Ready to automate your website?"
+                description="Launch your world-class AI Agent in minutes."
+                buttonText="Start Free Trial"
+                buttonHref="/signup"
             />
         </div>
     );
