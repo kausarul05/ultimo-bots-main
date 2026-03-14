@@ -125,6 +125,7 @@ export default function Home() {
                 footerText="Ultimo Bots is committed to safeguarding your data."
             />
 
+            {/* CTASection  */}
             <CTASection
                 title="Ready to automate your website?"
                 description="Launch your world-class AI Agent in minutes."

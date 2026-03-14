@@ -24,7 +24,7 @@ export default function RootLayout({
           <Sidebar />
           <main className={cn(
             "flex-1 transition-all duration-300",
-            "ml-64" // This will be dynamic if you want
+            "ml-74" // This will be dynamic if you want
           )}>
             {children}
             <Footer />

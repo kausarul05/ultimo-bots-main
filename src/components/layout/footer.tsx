@@ -17,7 +17,7 @@ export function Footer({
     return (
         <footer
             className={cn(
-                "ml-8 border-t border-[#eee8ff] md:py-8 lg:py-12 md:px-40",
+                "border-t border-[#eee8ff] md:py-8 lg:py-12 md:px-40",
                 className
             )}
             style={{
