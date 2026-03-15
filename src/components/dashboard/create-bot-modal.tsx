@@ -12,10 +12,10 @@ interface CreateBotModalProps {
 }
 
 export function CreateBotModal({ isOpen, onClose, onCreateBot }: CreateBotModalProps) {
-    const [botName, setBotName] = useState("Test");
-    const [websiteUrl, setWebsiteUrl] = useState("Test.com");
+    const [botName, setBotName] = useState("");
+    const [websiteUrl, setWebsiteUrl] = useState("");
     const [files, setFiles] = useState<File[]>([]);
-    const [uploadedFile, setUploadedFile] = useState("CV-Kausarul Islam.pdf (0.17 MB)");
+    const [uploadedFile, setUploadedFile] = useState("");
 
     if (!isOpen) return null;
 
