@@ -82,7 +82,17 @@ export function SidebarNav({ collapsed }: SidebarNavProps) {
         { title: "Settings", href: "/dashboard/settings", icon: Settings },
         { title: "Analytics", href: "/dashboard/analytics", icon: BarChart3 },
         { title: "Integration", href: "/dashboard/integration", icon: Puzzle },
-        { title: "Connect", href: "/dashboard/connect", icon: LinkIcon },
+        // { title: "Connect", href: "/dashboard/connect", icon: LinkIcon },
+        // { title: "Messaging", href: "/dashboard/messaging", icon: MessageSquare },
+        // { title: "Data Sources", href: "/dashboard/data-sources", icon: Database },
+      ]
+    },
+    { 
+      title: "Connect", 
+      href: "/dashboard/connect", 
+      icon: LinkIcon,
+      hasDropdown: true,
+      dropdownItems: [
         { title: "Messaging", href: "/dashboard/messaging", icon: MessageSquare },
         { title: "Data Sources", href: "/dashboard/data-sources", icon: Database },
       ]
