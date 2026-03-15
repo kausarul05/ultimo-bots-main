@@ -32,8 +32,8 @@ export default function RootLayout({
             {/* Only show sidebar on non-auth pages */}
             {!isAuthPage && <Sidebar />}
             <main className={cn(
-              "flex-1 min-h-screen transition-all duration-300",
-              !isAuthPage ? "lg:ml-64" : "ml-0"
+              "flex-1 transition-all duration-300",
+              !isAuthPage ? "" : "ml-0"
             )}>
               {children}
             </main>

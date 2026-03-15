@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SidebarLogo } from "./sidebar-logo";
 import { SidebarNav } from "./sidebar-nav";
 import { SidebarFooter } from "./sidebar-footer";
@@ -8,6 +8,13 @@ import { cn } from "@/lib/utils";
 
 export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  useEffect(() => {
+    // Check if user is authenticated
+    const auth = localStorage.getItem("isAuthenticated");
+    setIsAuthenticated(auth === "true");
+  }, []);
 
   return (
     <aside
@@ -24,8 +31,11 @@ export function Sidebar() {
         {/* Logo Section */}
         <SidebarLogo collapsed={collapsed} setCollapsed={setCollapsed} />
         
-        {/* Navigation */}
+        {/* Navigation - Public menu always visible */}
         <SidebarNav collapsed={collapsed} />
+        
+        {/* Auth Menu - Only shows when authenticated */}
+        {/* {isAuthenticated && <SidebarAuthMenu collapsed={collapsed} />} */}
         
         {/* Footer */}
         <SidebarFooter collapsed={collapsed} />

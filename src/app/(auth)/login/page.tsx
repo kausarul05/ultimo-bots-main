@@ -45,20 +45,20 @@ export default function LoginPage() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-[#fbfaff] to-[#ffffff] flex items-center justify-center p-4">
+        <div className="min-h-screen bg-gradient-to-r from-[#4510b0] to-[#5e1bff] flex items-center justify-center p-4">
             <div className="w-full max-w-2xl">
                 {/* Logo */}
-                <div className="text-center mb-8">
+                <div className="text-center mb-8 flex justify-between">
                     <div className="flex items-center justify-center gap-2 mb-2">
                         <div className="h-12 w-12 bg-[#0A0A0A] rounded-xl flex items-center justify-center">
                             <span className="text-white font-bold text-2xl">U</span>
                         </div>
                         <div className="flex items-center">
-                            <span className="text-[#0A0A0A] font-semibold text-2xl tracking-tight">Ultimo</span>
-                            <span className="text-[#666666] font-semibold text-2xl tracking-tight ml-1">Bots</span>
+                            <span className="text-white font-semibold text-2xl tracking-tight">Ultimo</span>
+                            <span className="text-white font-semibold text-2xl tracking-tight ml-1">Bots</span>
                         </div>
                     </div>
-                    <div className="text-sm text-[#666666]">EN</div>
+                    <div className="text-sm text-white">EN</div>
                 </div>
 
                 {/* Login Card */}
@@ -70,7 +70,7 @@ export default function LoginPage() {
                     {/* Google Login */}
                     <Button
                         variant="outline"
-                        className="w-full border-2 border-gray-200 hover:bg-gray-50 text-[#1d1d1f] py-5 mb-4 flex items-center justify-center gap-2"
+                        className="w-full bg-white border-2 border-gray-200 hover:bg-gray-50 text-[#1d1d1f] py-5 mb-4 flex items-center justify-center gap-2"
                     >
                         <svg className="h-5 w-5" viewBox="0 0 24 24">
                             <path
