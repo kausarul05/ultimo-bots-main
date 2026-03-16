@@ -37,7 +37,7 @@ export default function LoginPage() {
             // Force a small delay to ensure cookie is set
             setTimeout(() => {
                 // Use window.location for hard redirect to ensure middleware runs
-                window.location.href = "/dashboard";
+                window.location.href = "/dashboard/my-bots";
             }, 100);
         } else {
             setError("Invalid email or password");

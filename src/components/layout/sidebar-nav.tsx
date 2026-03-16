@@ -18,11 +18,12 @@ import {
     HelpCircle,
     ChevronDown
 } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface SidebarNavProps {
     collapsed: boolean;
+    isAuthenticated: boolean; // Receive auth state as prop
 }
 
 interface NavItem {
@@ -33,15 +34,9 @@ interface NavItem {
     dropdownItems?: { title: string; href: string; icon?: React.ElementType }[];
 }
 
-export function SidebarNav({ collapsed }: SidebarNavProps) {
+export function SidebarNav({ collapsed, isAuthenticated }: SidebarNavProps) {
     const pathname = usePathname();
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [openDropdowns, setOpenDropdowns] = useState<string[]>(['Bots']);
-
-    useEffect(() => {
-        const auth = localStorage.getItem("isAuthenticated");
-        setIsAuthenticated(auth === "true");
-    }, []);
 
     // Public navigation items (shown when NOT authenticated)
     const publicNavItems: NavItem[] = [
@@ -63,7 +58,7 @@ export function SidebarNav({ collapsed }: SidebarNavProps) {
             icon: FolderKanban,
             hasDropdown: true,
             dropdownItems: [
-                { title: "Documentation", href: "/resources/docs" },
+                { title: "Documentation", href: "/" },
                 { title: "Blog", href: "/resources/blog" }
             ]
         },
@@ -82,9 +77,6 @@ export function SidebarNav({ collapsed }: SidebarNavProps) {
                 { title: "Settings", href: "/dashboard/settings", icon: Settings },
                 { title: "Analytics", href: "/dashboard/analytics", icon: BarChart3 },
                 { title: "Integration", href: "/dashboard/integration", icon: Puzzle },
-                // { title: "Connect", href: "/dashboard/connect", icon: LinkIcon },
-                // { title: "Messaging", href: "/dashboard/messaging", icon: MessageSquare },
-                // { title: "Data Sources", href: "/dashboard/data-sources", icon: Database },
             ]
         },
         {
@@ -103,10 +95,9 @@ export function SidebarNav({ collapsed }: SidebarNavProps) {
             icon: HelpCircle,
             hasDropdown: true,
             dropdownItems: [
-                { title: "Guid", href: "/dashboard/my-bots" },
+                { title: "Guide", href: "/guide" },
                 { title: "Pricing", href: "/pricing" },
                 { title: "Referral Programm", href: "/referral" },
-                // { title: "Documentation", href: "/docs" }
             ]
         },
     ];

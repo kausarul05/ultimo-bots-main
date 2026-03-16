@@ -18,6 +18,14 @@ export default function RootLayout({
     const pathname = usePathname();
     const [isAuthPage, setIsAuthPage] = useState(false);
 
+    const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null); // Start with null
+
+    useEffect(() => {
+        // Check if user is authenticated
+        const auth = localStorage.getItem("isAuthenticated");
+        setIsAuthenticated(auth === "true");
+    }, []);
+
     useEffect(() => {
         // Check if current path is an auth page
         const authPaths = ['/login', '/signup', '/forgot-password', '/reset-password'];
@@ -33,7 +41,7 @@ export default function RootLayout({
                         {!isAuthPage && <Sidebar />}
                         <main className={cn(
                             "flex-1 transition-all duration-300",
-                            !isAuthPage ? "" : "ml-0"
+                            !isAuthenticated &&  !isAuthPage? "ml-64" : ""
                         )}>
                             {children}
                         </main>
