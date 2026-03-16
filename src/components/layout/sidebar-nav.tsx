@@ -95,7 +95,7 @@ export function SidebarNav({ collapsed, isAuthenticated }: SidebarNavProps) {
             icon: HelpCircle,
             hasDropdown: true,
             dropdownItems: [
-                { title: "Guide", href: "/guide" },
+                { title: "Guide", href: "/dashboard/my-bots" },
                 { title: "Pricing", href: "/pricing" },
                 { title: "Referral Programm", href: "/referral" },
             ]

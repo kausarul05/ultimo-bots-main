@@ -19,7 +19,7 @@ export function middleware(request: NextRequest) {
     
     // If already logged in and trying to access login, redirect to dashboard
     if (isLoginRoute && isAuthenticated) {
-        return NextResponse.redirect(new URL('/dashboard', request.url));
+        return NextResponse.redirect(new URL('/dashboard/my-bots', request.url));
     }
     
     // Allow request to continue
