@@ -11,35 +11,35 @@ import { useEffect, useState } from 'react';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  const pathname = usePathname();
-  const [isAuthPage, setIsAuthPage] = useState(false);
+    const pathname = usePathname();
+    const [isAuthPage, setIsAuthPage] = useState(false);
 
-  useEffect(() => {
-    // Check if current path is an auth page
-    const authPaths = ['/login', '/signup', '/forgot-password', '/reset-password'];
-    setIsAuthPage(authPaths.some(path => pathname?.includes(path)));
-  }, [pathname]);
+    useEffect(() => {
+        // Check if current path is an auth page
+        const authPaths = ['/login', '/signup', '/forgot-password', '/reset-password'];
+        setIsAuthPage(authPaths.some(path => pathname?.includes(path)));
+    }, [pathname]);
 
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <AuthProvider>
-          <div className="flex">
-            {/* Only show sidebar on non-auth pages */}
-            {!isAuthPage && <Sidebar />}
-            <main className={cn(
-              "flex-1 transition-all duration-300",
-              !isAuthPage ? "" : "ml-0"
-            )}>
-              {children}
-            </main>
-          </div>
-        </AuthProvider>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={inter.className}>
+                <AuthProvider>
+                    <div className="flex">
+                        {/* Only show sidebar on non-auth pages */}
+                        {!isAuthPage && <Sidebar />}
+                        <main className={cn(
+                            "flex-1 transition-all duration-300",
+                            !isAuthPage ? "" : "ml-0"
+                        )}>
+                            {children}
+                        </main>
+                    </div>
+                </AuthProvider>
+            </body>
+        </html>
+    );
 }
