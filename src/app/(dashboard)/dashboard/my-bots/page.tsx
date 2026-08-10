@@ -1,269 +1,308 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Plus, Bot, MessageSquare, Users, Shield, Zap, Brain, Settings, BarChart3, Puzzle } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
+import {
+    BarChart3,
+    Bot as BotIcon,
+    Brain,
+    MessageSquare,
+    Plus,
+    Puzzle,
+    Settings,
+    Shield,
+    Sparkles,
+    Users,
+    Zap,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge, StatusDot } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
+import { PageHeader } from "@/components/ui/page-header";
 import { CreateBotModal } from "@/components/dashboard/create-bot-modal";
-import { cn } from "@/lib/utils";
 
 interface Bot {
     id: string;
     name: string;
-    successScore: string;
+    successScore: number;
     successFraction: string;
     plan: "Free" | "Pro" | "Enterprise";
     messagesUsed: number;
     messagesLimit: number;
-    activity: string;
+    activity: boolean[];
     status: "active" | "inactive";
+}
+
+const highlights = [
+    {
+        icon: Brain,
+        title: "Smart conversations",
+        description: "Contextual answers trained on your website and knowledge base.",
+    },
+    {
+        icon: Zap,
+        title: "Instant setup",
+        description: "Point the bot at a domain, let it ingest, then customize.",
+    },
+    {
+        icon: Users,
+        title: "Lead capture",
+        description: "Warm lead workflows collect emails and intent for follow-up.",
+    },
+    {
+        icon: Shield,
+        title: "Safe and controlled",
+        description: "Set tone, guardrails, fallback behavior and escalation paths.",
+    },
+    {
+        icon: MessageSquare,
+        title: "Continuous learning",
+        description: "Refine knowledge with documents and chat-history improvements.",
+    },
+];
+
+const botActions = [
+    { label: "Test bot", href: "/dashboard/my-bots", icon: MessageSquare },
+    { label: "Settings", href: "/dashboard/settings", icon: Settings },
+    { label: "Analytics", href: "/dashboard/analytics", icon: BarChart3 },
+    { label: "Integration", href: "/dashboard/integration", icon: Puzzle },
+];
+
+/** Success score drives the badge colour so a weak bot is visible at a glance. */
+function scoreTone(score: number) {
+    if (score >= 70) return "success" as const;
+    if (score >= 35) return "warning" as const;
+    return "danger" as const;
 }
 
 export default function MyBotsPage() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [bots, setBots] = useState<Bot[]>([]); // Start with empty array
+    const [bots, setBots] = useState<Bot[]>([]);
 
-    const highlights = [
-        {
-            icon: Brain,
-            title: "Smart Conversations",
-            description: "Deliver contextual answers trained on your website & knowledge base."
-        },
-        {
-            icon: Zap,
-            title: "Instant Setup",
-            description: "Point the bot at a domain, let it ingest, then customize."
-        },
-        {
-            icon: Users,
-            title: "Lead Capture",
-            description: "Warm lead workflows collect emails & intent for follow-up."
-        },
-        {
-            icon: Shield,
-            title: "Safe & Controlled",
-            description: "Set tone, guardrails, fallback behavior & escalation paths."
-        },
-        {
-            icon: Brain,
-            title: "Continuous Learning",
-            description: "Refine knowledge with documents & chat history improvements."
-        }
-    ];
-
-    const handleCreateBot = (botData: any) => {
-        const newBot: Bot = {
-            id: Date.now().toString(),
-            name: botData.name,
-            successScore: "13%",
-            successFraction: "1/8",
-            plan: "Free",
-            messagesUsed: 0,
-            messagesLimit: 20,
-            activity: "14d",
-            status: "active"
-        };
-        setBots([...bots, newBot]);
+    const handleCreateBot = (botData: { name: string; website: string; files: File[] }) => {
+        setBots((prev) => [
+            ...prev,
+            {
+                id: Date.now().toString(),
+                name: botData.name,
+                successScore: 13,
+                successFraction: "1/8",
+                plan: "Free",
+                messagesUsed: 0,
+                messagesLimit: 20,
+                activity: [true, true, true, false, false, false, false],
+                status: "active",
+            },
+        ]);
         setIsModalOpen(false);
     };
 
-    // If no bots, show the "Create Your First Bot" view
+    const newBotButton = (
+        <Button variant="gradient" size="lg" onClick={() => setIsModalOpen(true)}>
+            <Plus className="h-4 w-4" />
+            New bot
+        </Button>
+    );
+
     if (bots.length === 0) {
         return (
-            <div className="px-8 py-8">
-                <div className="">
-                    {/* Header Section */}
-                    <div className="mb-8 bg-gradient-to-r from-[#4510b0] to-[#5e1bff] p-10 rounded-2xl">
-                        {/* Title */}
-                        <h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
-                            Create Your First Bot
-                        </h1>
-
-                        {/* Description */}
-                        <p className="text-sm text-white max-w-3xl mb-6">
-                            Create an intelligent chatbot to automate support, capture qualified leads, and provide instant answers 24/7. Your first bot can be live in minutes.
-                        </p>
-
-                        {/* New Bot Button */}
-                        <Button
-                            onClick={() => setIsModalOpen(true)}
-                            className="bg-white text-black px-6 py-5 text-base font-bold shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"
+            <div className="space-y-10">
+                {/* Onboarding hero */}
+                <section className="relative overflow-hidden rounded-panel bg-brand-gradient px-6 py-10 shadow-panel sm:px-10 sm:py-12">
+                    <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute inset-0 bg-[radial-gradient(80%_60%_at_100%_0%,rgba(255,255,255,0.18),transparent_60%)]"
+                    />
+                    <div className="relative max-w-2xl">
+                        <Badge
+                            variant="outline"
+                            className="border-white/25 bg-white/10 text-white backdrop-blur"
                         >
-                            <Plus className="h-5 w-5" />
-                            New Bot
+                            <Sparkles className="h-3.5 w-3.5" />
+                            Get started
+                        </Badge>
+                        <h1 className="mt-4 text-3xl font-bold text-white sm:text-4xl">
+                            Create your first bot
+                        </h1>
+                        <p className="mt-3 text-[0.9375rem] leading-relaxed text-white/80">
+                            Build an intelligent chatbot to automate support, capture qualified
+                            leads and answer questions 24/7. Your first bot can be live in minutes.
+                        </p>
+                        <Button
+                            size="lg"
+                            onClick={() => setIsModalOpen(true)}
+                            className="mt-7 bg-white text-brand-800 shadow-lg hover:bg-white/90"
+                        >
+                            <Plus className="h-4 w-4" />
+                            New bot
                         </Button>
                     </div>
+                </section>
 
-                    {/* Divider */}
-                    <div className="border-t border-gray-200 my-10"></div>
-
-                    {/* Platform Highlights Section */}
-                    <div>
-                        <h2 className="text-2xl font-bold text-[#1d1d1f] mb-6">Platform Highlights</h2>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {highlights.map((item, index) => {
-                                const Icon = item.icon;
-                                return (
-                                    <div
-                                        key={index}
-                                        className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 hover:border-[#5e1bff]/30"
-                                    >
-                                        <div className="flex items-start gap-4">
-                                            <div className="flex-shrink-0">
-                                                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#4510b0]/10 to-[#5e1bff]/10 flex items-center justify-center">
-                                                    <Icon className="h-5 w-5 text-[#5e1bff]" />
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <h3 className="font-semibold text-[#1d1d1f] mb-1">{item.title}</h3>
-                                                <p className="text-sm text-[#666666] leading-relaxed">{item.description}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </div>
+                <section className="space-y-5">
+                    <div className="space-y-1">
+                        <h2 className="text-lg font-semibold text-foreground">
+                            Platform highlights
+                        </h2>
+                        <p className="text-sm text-ink-500">
+                            What your bot can do once it is up and running.
+                        </p>
                     </div>
 
-                    {/* Create Bot Modal */}
-                    <CreateBotModal
-                        isOpen={isModalOpen}
-                        onClose={() => setIsModalOpen(false)}
-                        onCreateBot={handleCreateBot}
-                    />
-                </div>
-            </div>
-        );
-    }
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                        {highlights.map((item) => (
+                            <Card key={item.title} interactive>
+                                <CardContent className="flex gap-4 p-5">
+                                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-field bg-brand-50 text-brand-600">
+                                        <item.icon className="h-5 w-5" />
+                                    </span>
+                                    <div className="min-w-0 space-y-1">
+                                        <h3 className="font-semibold text-foreground">
+                                            {item.title}
+                                        </h3>
+                                        <p className="text-sm leading-relaxed text-ink-500">
+                                            {item.description}
+                                        </p>
+                                    </div>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
+                </section>
 
-    // If bots exist, show the "Your Bots" view with cards
-    return (
-        <div className="px-8 py-8">
-            <div className="">
-                {/* Header with Your Bots title and New Bot button */}
-                <div className="flex items-center gap-8 mb-8">
-                    <h1 className="text-3xl font-bold text-[#1d1d1f]">Your Bots</h1>
-                    <Button
-                        onClick={() => setIsModalOpen(true)}
-                        className="bg-gradient-to-r from-[#4510b0] to-[#5e1bff] hover:from-[#5e1bff] hover:to-[#4510b0] text-white px-6 py-5 text-base font-bold shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2"
-                    >
-                        <Plus className="h-5 w-5" />
-                        New Bot
-                    </Button>
-                </div>
-
-                {/* Bots Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
-                    {bots.map((bot) => (
-                        <div
-                            key={bot.id}
-                            className="bg-white rounded-xl border border-[#ddd] p-3 hover:shadow-lg transition-all duration-300 hover:border-[#5e1bff]/30 shadow"
-                        >
-                            {/* Bot Name */}
-                            <h2 className="text-xl font-bold text-[#1d1d1f] mb-4">{bot.name}</h2>
-
-                            {/* Success Score */}
-                            <div className="mb-4">
-                                <div className="flex items-center justify-between mb-1">
-                                    <span className="text-sm text-[#666666]">Success Score</span>
-                                    <span className="text-sm font-medium text-[#1d1d1f] border border-[#ef9a9a] bg-[#ffcdd2] px-2 py-1 rounded-full">{bot.successScore} ({bot.successFraction})</span>
-                                </div>
-                                {/* <div className="w-full h-2 bg-gray-100 rounded-full overflow-hidden">
-                                    <div 
-                                        className="h-full bg-gradient-to-r from-[#4510b0] to-[#5e1bff] rounded-full"
-                                        style={{ width: bot.successScore }}
-                                    />
-                                </div> */}
-                            </div>
-
-                            {/* Plan */}
-                            <div className="flex items-center justify-between mb-4">
-                                <span className="text-sm text-[#666666]">Plan</span>
-                                <div className="flex items-center gap-2">
-                                    <span className="text-sm font-medium text-[#1d1d1f]">{bot.plan}</span>
-                                    <button className="text-xs text-[#5e1bff] hover:text-[#4510b0] flex items-center gap-1">
-                                        ⏱ Upgrade
-                                    </button>
-                                </div>
-                            </div>
-
-                            {/* Messages used */}
-                            <div className="mb-4">
-                                <div className="flex items-center justify-between mb-1">
-                                    <span className="text-sm text-[#666666]">Messages used</span>
-                                    <span className="text-sm font-medium text-[#1d1d1f]">{bot.messagesUsed} / {bot.messagesLimit}</span>
-                                </div>
-                                {/* <div className="w-full h-2 bg-gray-100 rounded-full overflow-hidden">
-                                    <div 
-                                        className="h-full bg-gradient-to-r from-[#4510b0] to-[#5e1bff] rounded-full"
-                                        style={{ width: `${(bot.messagesUsed / bot.messagesLimit) * 100}%` }}
-                                    />
-                                </div> */}
-                            </div>
-
-                            {/* Activity */}
-                            <div className="flex items-center justify-between mb-6">
-                                <span className="text-sm text-[#666666]">Activity {bot.activity}</span>
-                                <div className="flex items-center gap-1">
-                                    {[1, 2, 3, 4, 5, 6, 7].map((day) => (
-                                        <div
-                                            key={day}
-                                            className={cn(
-                                                "w-2 h-2 rounded-full",
-                                                day <= 3 ? "bg-[#5e1bff]" : "bg-gray-200"
-                                            )}
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-
-                            {/* Actions */}
-                            <div className="grid grid-cols-2 gap-2">
-                                <Button
-                                    variant="outline"
-                                    className="bg-white border-[#ddd] text-[#000]  text-sm"
-                                >
-                                    Test Bot
-                                </Button>
-                                <Button
-                                    variant="outline"
-                                    className="bg-white border-[#ddd] text-[#000]  text-sm"
-                                >
-                                    Settings
-                                </Button>
-                                <Button
-                                    variant="outline"
-                                    className="bg-white border-[#ddd] text-[#000]  text-sm"
-                                >
-                                    Analytics
-                                </Button>
-                                <Button
-                                    variant="outline"
-                                    className="bg-white border-[#ddd] text-[#000]  text-sm"
-                                >
-                                    Integration
-                                </Button>
-                            </div>
-                        </div>
-                    ))}
-
-                    {/* Add New Bot Card */}
-                    {/* <button
-                        onClick={() => setIsModalOpen(true)}
-                        className="bg-white/50 rounded-xl border-2 border-dashed border-gray-300 p-6 hover:border-[#5e1bff]/50 hover:bg-white/80 transition-all duration-300 flex flex-col items-center justify-center min-h-[400px]"
-                    >
-                        <Plus className="h-8 w-8 text-[#5e1bff] mb-2" />
-                        <span className="font-medium text-[#1d1d1f]">Create New Bot</span>
-                    </button> */}
-                </div>
-
-                {/* Create Bot Modal */}
                 <CreateBotModal
                     isOpen={isModalOpen}
                     onClose={() => setIsModalOpen(false)}
                     onCreateBot={handleCreateBot}
                 />
             </div>
+        );
+    }
+
+    return (
+        <div className="space-y-8">
+            <PageHeader
+                title="Your bots"
+                description={`${bots.length} bot${bots.length === 1 ? "" : "s"} configured.`}
+                actions={newBotButton}
+            />
+
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                {bots.map((bot) => (
+                    <Card key={bot.id} interactive className="flex flex-col">
+                        <CardContent className="flex flex-1 flex-col p-5">
+                            <div className="flex items-start justify-between gap-3">
+                                <div className="flex min-w-0 items-center gap-3">
+                                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-field bg-brand-gradient text-white">
+                                        <BotIcon className="h-5 w-5" />
+                                    </span>
+                                    <div className="min-w-0">
+                                        <h2 className="truncate font-semibold text-foreground">
+                                            {bot.name}
+                                        </h2>
+                                        <StatusDot
+                                            status={bot.status}
+                                            label={bot.status === "active" ? "Live" : "Paused"}
+                                        />
+                                    </div>
+                                </div>
+                                <Badge variant={bot.plan === "Free" ? "neutral" : "brand"}>
+                                    {bot.plan}
+                                </Badge>
+                            </div>
+
+                            <dl className="mt-6 space-y-4">
+                                <div>
+                                    <div className="flex items-center justify-between gap-2">
+                                        <dt className="text-sm text-ink-500">Success score</dt>
+                                        <dd>
+                                            <Badge variant={scoreTone(bot.successScore)} size="sm">
+                                                {bot.successScore}% ({bot.successFraction})
+                                            </Badge>
+                                        </dd>
+                                    </div>
+                                    <Progress
+                                        value={bot.successScore}
+                                        tone="auto"
+                                        label="Success score"
+                                        className="mt-2"
+                                    />
+                                </div>
+
+                                <div>
+                                    <div className="flex items-center justify-between gap-2">
+                                        <dt className="text-sm text-ink-500">Messages used</dt>
+                                        <dd className="text-sm font-medium tabular-nums text-foreground">
+                                            {bot.messagesUsed} / {bot.messagesLimit}
+                                        </dd>
+                                    </div>
+                                    <Progress
+                                        value={bot.messagesUsed}
+                                        max={bot.messagesLimit}
+                                        tone="auto"
+                                        label="Messages used"
+                                        className="mt-2"
+                                    />
+                                </div>
+
+                                <div className="flex items-center justify-between gap-2">
+                                    <dt className="text-sm text-ink-500">Activity (7d)</dt>
+                                    <dd className="flex items-center gap-1" aria-label="Activity over the last 7 days">
+                                        {bot.activity.map((active, i) => (
+                                            <span
+                                                key={i}
+                                                className={
+                                                    active
+                                                        ? "h-4 w-1.5 rounded-full bg-brand-500"
+                                                        : "h-4 w-1.5 rounded-full bg-ink-200"
+                                                }
+                                            />
+                                        ))}
+                                    </dd>
+                                </div>
+                            </dl>
+
+                            <div className="mt-6 grid flex-1 grid-cols-2 items-end gap-2">
+                                {botActions.map((action) => (
+                                    <Button
+                                        key={action.label}
+                                        asChild
+                                        variant="outline"
+                                        size="sm"
+                                    >
+                                        <Link href={action.href}>
+                                            <action.icon className="h-3.5 w-3.5" />
+                                            {action.label}
+                                        </Link>
+                                    </Button>
+                                ))}
+                            </div>
+                        </CardContent>
+                    </Card>
+                ))}
+
+                {/* Affordance to add another bot, sized to match the cards. */}
+                <button
+                    type="button"
+                    onClick={() => setIsModalOpen(true)}
+                    className="flex min-h-[19rem] flex-col items-center justify-center gap-3 rounded-card border-2 border-dashed border-ink-300 bg-ink-50/40 p-6 text-center transition-colors hover:border-brand-400 hover:bg-brand-50/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                >
+                    <span className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-100 text-brand-700">
+                        <Plus className="h-5 w-5" />
+                    </span>
+                    <span className="font-medium text-foreground">Create another bot</span>
+                    <span className="max-w-[15rem] text-sm text-ink-500">
+                        Spin up a second assistant for a different site or audience.
+                    </span>
+                </button>
+            </div>
+
+            <CreateBotModal
+                isOpen={isModalOpen}
+                onClose={() => setIsModalOpen(false)}
+                onCreateBot={handleCreateBot}
+            />
         </div>
     );
 }

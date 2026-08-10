@@ -1,70 +1,89 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import Link from "next/link";
+import { ArrowRight, Bot, MessageSquare, Plug, TrendingUp, Users } from "lucide-react";
+import { PageHeader } from "@/components/ui/page-header";
+import { StatCard } from "@/components/ui/stat-card";
 import { Button } from "@/components/ui/button";
-import { LogOut } from "lucide-react";
+import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
+
+const stats = [
+    { label: "Active bots", value: 3, icon: Bot, delta: 0, hint: "Across all plans" },
+    { label: "Conversations", value: "1,234", icon: MessageSquare, delta: 12, hint: "Last 30 days" },
+    { label: "Leads captured", value: 567, icon: Users, delta: 8, hint: "Last 30 days" },
+    { label: "Avg. response", value: "1.2s", icon: TrendingUp, delta: -4, hint: "Bot reply time" },
+];
+
+const shortcuts = [
+    {
+        title: "Manage your bots",
+        description: "Create a bot, tune its knowledge base or check how it is performing.",
+        href: "/dashboard/my-bots",
+        icon: Bot,
+    },
+    {
+        title: "Review analytics",
+        description: "See chat volume, captured leads and where your visitors come from.",
+        href: "/dashboard/analytics",
+        icon: TrendingUp,
+    },
+    {
+        title: "Install the widget",
+        description: "Copy the snippet or use the WordPress, Wix and Webflow integrations.",
+        href: "/dashboard/integration",
+        icon: Plug,
+    },
+];
 
 export default function DashboardPage() {
-    const router = useRouter();
-
-    useEffect(() => {
-        // Check if user is authenticated
-        const isAuth = localStorage.getItem("isAuthenticated");
-        if (!isAuth) {
-            router.push("/login");
-        }
-    }, [router]);
-
-    const handleLogout = () => {
-        localStorage.removeItem("isAuthenticated");
-        localStorage.removeItem("userEmail");
-        router.push("/login");
-    };
-
     return (
-        <div className="min-h-screen bg-gradient-to-br from-[#fbfaff] to-[#ffffff]">
-            {/* Dashboard Header */}
-            <header className="bg-white border-b border-gray-200 p-4">
-                <div className="container mx-auto flex justify-between items-center">
-                    <div className="flex items-center gap-2">
-                        <div className="h-8 w-8 bg-[#0A0A0A] rounded-md flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">U</span>
-                        </div>
-                        <span className="font-semibold text-[#1d1d1f]">Ultimo Bots Dashboard</span>
-                    </div>
-                    <Button
-                        onClick={handleLogout}
-                        variant="outline"
-                        className="border-[#5e1bff] text-[#5e1bff] hover:bg-[#5e1bff] hover:text-white"
-                    >
-                        <LogOut className="h-4 w-4 mr-2" />
-                        Logout
+        <div className="space-y-8">
+            <PageHeader
+                title="Dashboard"
+                description="A quick read on how your bots are performing, and where to go next."
+                actions={
+                    <Button asChild variant="gradient" size="lg">
+                        <Link href="/dashboard/my-bots">
+                            Go to my bots
+                            <ArrowRight className="h-4 w-4" />
+                        </Link>
                     </Button>
-                </div>
-            </header>
+                }
+            />
 
-            {/* Dashboard Content */}
-            <main className="container mx-auto p-8">
-                <h1 className="text-3xl font-bold text-[#1d1d1f] mb-4">Welcome to your Dashboard</h1>
-                <p className="text-[#666666] mb-8">You have successfully logged in!</p>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
+                {stats.map((stat) => (
+                    <StatCard key={stat.label} {...stat} />
+                ))}
+            </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/* Stats Cards */}
-                    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                        <h3 className="font-semibold text-[#1d1d1f] mb-2">Active Bots</h3>
-                        <p className="text-3xl font-bold text-[#5e1bff]">3</p>
-                    </div>
-                    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                        <h3 className="font-semibold text-[#1d1d1f] mb-2">Total Conversations</h3>
-                        <p className="text-3xl font-bold text-[#5e1bff]">1,234</p>
-                    </div>
-                    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                        <h3 className="font-semibold text-[#1d1d1f] mb-2">Leads Generated</h3>
-                        <p className="text-3xl font-bold text-[#5e1bff]">567</p>
-                    </div>
+            <section className="space-y-4">
+                <h2 className="text-lg font-semibold text-foreground">Jump back in</h2>
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    {shortcuts.map((item) => (
+                        <Link
+                            key={item.href}
+                            href={item.href}
+                            className="group rounded-card focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                        >
+                            <Card interactive className="h-full">
+                                <CardContent className="p-5 sm:p-6">
+                                    <span className="mb-4 flex h-10 w-10 items-center justify-center rounded-field bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-100">
+                                        <item.icon className="h-5 w-5" />
+                                    </span>
+                                    <CardTitle className="flex items-center gap-1.5">
+                                        {item.title}
+                                        <ArrowRight className="h-4 w-4 text-ink-400 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-brand-600" />
+                                    </CardTitle>
+                                    <CardDescription className="mt-1.5">
+                                        {item.description}
+                                    </CardDescription>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                    ))}
                 </div>
-            </main>
+            </section>
         </div>
     );
 }

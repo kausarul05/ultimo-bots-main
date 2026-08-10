@@ -1,166 +1,155 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { ChevronDown, Copy, Check, Calendar, Globe, Code, ExternalLink } from "lucide-react";
 import { useState } from "react";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Calendar, Check, Code2, Copy, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Select } from "@/components/ui/select";
+import { Field } from "@/components/ui/label";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, type TabItem } from "@/components/ui/tabs";
+import { PageHeader } from "@/components/ui/page-header";
 
-type PlatformTab = "Snippet" | "WIX" | "Webflow" | "WordPress" | "Chat Link";
+type PlatformTab = "snippet" | "wix" | "webflow" | "wordpress" | "chat-link";
+
+const tabs: TabItem<PlatformTab>[] = [
+    { value: "snippet", label: "Snippet" },
+    { value: "wix", label: "Wix" },
+    { value: "webflow", label: "Webflow" },
+    { value: "wordpress", label: "WordPress" },
+    { value: "chat-link", label: "Chat link" },
+];
+
+const snippetCode = `<div id="chat-widget-container" data-user-id="177359144926639271464fZAff"></div>
+<script src="https://robert-kloepsch.github.io/ultimo-bots-widget/dist/bundle.js" defer></script>`;
+
+const widgetFacts = [
+    "Floating chat bubble — it doesn't affect your page layout",
+    "Works with any platform (HTML, React, Shopify and more)",
+    "No plugin installation required",
+];
 
 export default function IntegrationPage() {
-    const [activePlatform, setActivePlatform] = useState<PlatformTab>("Snippet");
+    const [activePlatform, setActivePlatform] = useState<PlatformTab>("snippet");
     const [selectedBot, setSelectedBot] = useState("Test");
     const [copied, setCopied] = useState(false);
 
-    const platforms: PlatformTab[] = ["Snippet", "WIX", "Webflow", "WordPress", "Chat Link"];
-
-    const snippetCode = `<div id="chat-widget-container" data-user-id="177359144926639271464fZAff"></div>
-<script src="https://robert-kloepsch.github.io/ultimo-bots-widget/dist/bundle.js" defer></script>
-<a href="https://www.ultimo-bots.com" target="_blank" rel="noopener" style="display: none;">Our website</a>`;
-
-    const copyToClipboard = () => {
-        navigator.clipboard.writeText(snippetCode);
-        setCopied(true);
-        setTimeout(() => setCopied(false), 2000);
+    const copyToClipboard = async () => {
+        try {
+            await navigator.clipboard.writeText(snippetCode);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        } catch {
+            // Clipboard can be blocked by permissions; the code stays selectable.
+        }
     };
 
     return (
-        <div className="px-8 py-8">
-            <div className="">
-                {/* Header */}
-                {/* <h1 className="text-3xl font-bold text-[#1d1d1f] mb-8">Snippet</h1> */}
+        <div className="space-y-6">
+            <PageHeader
+                title="Integration"
+                description="Put your bot on your site. Copy the snippet, or use a platform-specific install."
+            />
 
-                {/* Platform Tabs */}
-                <div className="mb-8">
-                    <div className="flex items-center gap-2 border-b border-gray-200">
-                        {platforms.map((platform) => (
-                            <button
-                                key={platform}
-                                onClick={() => setActivePlatform(platform)}
-                                className={cn(
-                                    "px-4 py-2 text-sm font-medium transition-all relative -mb-px",
-                                    activePlatform === platform
-                                        ? "text-[#5e1bff] border-b-2 border-[#5e1bff]"
-                                        : "text-[#666666] hover:text-[#1d1d1f]"
-                                )}
-                            >
-                                {platform}
-                            </button>
+            <Tabs
+                tabs={tabs}
+                value={activePlatform}
+                onChange={setActivePlatform}
+                aria-label="Integration methods"
+            />
+
+            <Field label="Bot" htmlFor="bot-select" className="w-full sm:w-64">
+                <Select
+                    id="bot-select"
+                    value={selectedBot}
+                    onChange={(e) => setSelectedBot(e.target.value)}
+                >
+                    <option value="Test">Test</option>
+                </Select>
+            </Field>
+
+            <Card>
+                <CardHeader>
+                    <CardTitle>Widget integration</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                    <p className="text-sm leading-relaxed text-ink-600">
+                        Adds a chat bubble to the bottom-right corner of your website. Paste the
+                        snippet just before the closing{" "}
+                        <code className="rounded bg-ink-100 px-1.5 py-0.5 font-mono text-[0.8125rem] text-ink-800">
+                            &lt;/body&gt;
+                        </code>{" "}
+                        tag.
+                    </p>
+
+                    <ul className="space-y-2">
+                        {widgetFacts.map((fact) => (
+                            <li key={fact} className="flex items-start gap-2.5 text-sm text-ink-600">
+                                <Check
+                                    className="mt-0.5 h-4 w-4 shrink-0 text-success"
+                                    aria-hidden="true"
+                                />
+                                {fact}
+                            </li>
                         ))}
-                    </div>
-                </div>
+                    </ul>
+                </CardContent>
+            </Card>
 
-                {/* Select Bot Row */}
-                <div className="mb-8">
-                    <label className="block text-sm font-medium text-[#666666] mb-2">
-                        Select Bot
-                    </label>
-                    <button className="w-64 flex items-center justify-between px-4 py-3 border border-gray-200 rounded-lg bg-white hover:border-[#5e1bff] transition-colors">
-                        <span className="text-[#1d1d1f]">{selectedBot}</span>
-                        <ChevronDown className="h-4 w-4 text-[#666666]" />
+            {/* Code block: dark on purpose — code reads better against a dark ground. */}
+            <div className="overflow-hidden rounded-card border border-ink-800 bg-ink-950 shadow-card">
+                <div className="flex items-center justify-between gap-3 border-b border-white/10 px-4 py-3">
+                    <span className="flex items-center gap-2 text-sm font-medium text-white">
+                        <Code2 className="h-4 w-4 text-brand-400" aria-hidden="true" />
+                        Integration code
+                    </span>
+                    <button
+                        type="button"
+                        onClick={copyToClipboard}
+                        className="inline-flex items-center gap-1.5 rounded-field bg-white/10 px-2.5 py-1.5 text-xs font-medium text-white transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    >
+                        {copied ? (
+                            <>
+                                <Check className="h-3.5 w-3.5 text-emerald-400" />
+                                Copied
+                            </>
+                        ) : (
+                            <>
+                                <Copy className="h-3.5 w-3.5" />
+                                Copy
+                            </>
+                        )}
                     </button>
                 </div>
+                <pre className="scrollbar-slim overflow-x-auto px-4 py-4">
+                    <code className="font-mono text-[0.8125rem] leading-relaxed text-ink-200">
+                        {snippetCode}
+                    </code>
+                </pre>
+            </div>
 
-                {/* Widget Integration Section */}
-                <div className="bg-white rounded-xl border border-gray-200 p-6 mb-8">
-                    <h2 className="text-xl font-semibold text-[#1d1d1f] mb-4">Widget</h2>
-                    
-                    <div className="space-y-4">
-                        <div className="flex items-start gap-3">
-                            <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#4510b0] to-[#5e1bff] flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5">
-                                •
-                            </div>
-                            <p className="text-[#4a4a4a] leading-relaxed">
-                                <span className="font-semibold text-[#1d1d1f]">Widget Integration:</span> Adds a chat bubble to the bottom-right corner of your website. Copy the snippet and paste it before the closing <code className="bg-gray-100 px-1.5 py-0.5 rounded text-sm">&lt;/body&gt;</code> tag.
+            {/* Help CTA */}
+            <Card className="border-brand-200 bg-gradient-to-br from-brand-50 to-card">
+                <CardContent className="flex flex-col gap-5 p-6 lg:flex-row lg:items-center lg:justify-between">
+                    <div className="flex gap-4">
+                        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-gradient text-white">
+                            <Calendar className="h-5 w-5" />
+                        </span>
+                        <div className="space-y-1">
+                            <h3 className="font-semibold text-foreground">
+                                Need help with integration?
+                            </h3>
+                            <p className="max-w-xl text-sm leading-relaxed text-ink-600">
+                                Book a free 15-minute call and we&rsquo;ll walk you through
+                                installing your chatbot step by step.
                             </p>
                         </div>
-                        
-                        <div className="ml-9 space-y-2">
-                            <div className="flex items-start gap-2">
-                                <div className="w-1.5 h-1.5 rounded-full bg-[#5e1bff] mt-2"></div>
-                                <p className="text-sm text-[#666666]">Floating chat bubble – doesn't affect your page layout</p>
-                            </div>
-                            <div className="flex items-start gap-2">
-                                <div className="w-1.5 h-1.5 rounded-full bg-[#5e1bff] mt-2"></div>
-                                <p className="text-sm text-[#666666]">Works with any website platform (HTML, React, Shopify, etc.)</p>
-                            </div>
-                            <div className="flex items-start gap-2">
-                                <div className="w-1.5 h-1.5 rounded-full bg-[#5e1bff] mt-2"></div>
-                                <p className="text-sm text-[#666666]">No plugin installation required</p>
-                            </div>
-                        </div>
                     </div>
-                </div>
-
-                {/* Code Snippet Section */}
-                <div className="bg-[#1e1e2f] rounded-xl border border-gray-800 p-6 mb-8">
-                    <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center gap-2">
-                            <Code className="h-5 w-5 text-[#5e1bff]" />
-                            <span className="text-sm font-medium text-white">Integration Code</span>
-                        </div>
-                        <button
-                            onClick={copyToClipboard}
-                            className="flex items-center gap-2 px-3 py-1.5 bg-white/10 hover:bg-white/20 rounded-lg transition-colors"
-                        >
-                            {copied ? (
-                                <>
-                                    <Check className="h-4 w-4 text-green-400" />
-                                    <span className="text-xs text-white">Copied!</span>
-                                </>
-                            ) : (
-                                <>
-                                    <Copy className="h-4 w-4 text-white" />
-                                    <span className="text-xs text-white">Copy</span>
-                                </>
-                            )}
-                        </button>
-                    </div>
-                    
-                    <pre className="bg-[#0a0a1a] rounded-lg p-4 overflow-x-auto">
-                        <code className="text-sm text-gray-300 font-mono whitespace-pre-wrap">
-                            {snippetCode}
-                        </code>
-                    </pre>
-
-                    <div className="mt-4 text-xs text-gray-500">
-                        <a 
-                            href="https://www.ultimo-bots.com" 
-                            target="_blank" 
-                            rel="noopener"
-                            className="flex items-center gap-1 hover:text-gray-400 transition-colors"
-                        >
-                            Our website
-                            <ExternalLink className="h-3 w-3" />
-                        </a>
-                    </div>
-                </div>
-
-                {/* Need Help Section */}
-                <div className="bg-gradient-to-r from-[#f3efff] to-white rounded-xl border border-[#5e1bff]/20 p-8">
-                    <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                        <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-[#4510b0] to-[#5e1bff] flex items-center justify-center text-white flex-shrink-0">
-                                <Calendar className="h-6 w-6" />
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-semibold text-[#1d1d1f] mb-2">Need help with integration?</h3>
-                                <p className="text-[#666666] max-w-2xl">
-                                    Book a free 15-minute integration call where we guide you step by step to integrate your chatbot.
-                                </p>
-                            </div>
-                        </div>
-                        <Button
-                            className="bg-gradient-to-r from-[#4510b0] to-[#5e1bff] hover:from-[#5e1bff] hover:to-[#4510b0] text-white px-6 py-5 text-base font-medium shadow-lg hover:shadow-xl transition-all whitespace-nowrap"
-                        >
-                            Book integration call
-                        </Button>
-                    </div>
-                </div>
-            </div>
-            
+                    <Button variant="gradient" size="lg" className="shrink-0">
+                        Book integration call
+                        <ExternalLink className="h-4 w-4" />
+                    </Button>
+                </CardContent>
+            </Card>
         </div>
     );
 }

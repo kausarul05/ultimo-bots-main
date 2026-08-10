@@ -1,48 +1,68 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { PanelLeftClose, PanelLeftOpen, X } from "lucide-react";
+import { useSidebar } from "./sidebar-context";
 import { cn } from "@/lib/utils";
 
-interface SidebarLogoProps {
-  collapsed: boolean;
-  setCollapsed: (value: boolean) => void;
-}
+export function SidebarLogo() {
+  const { collapsed, toggleCollapsed, setMobileOpen } = useSidebar();
 
-export function SidebarLogo({ collapsed, setCollapsed }: SidebarLogoProps) {
   return (
-    <div className="px-4 py-6">
-      <div className="flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5">
-          {/* Logo Square */}
-          <div className="h-8 w-8 bg-white rounded-md flex items-center justify-center shadow-lg">
-            <span className="text-[#4510b0] font-bold text-lg">U</span>
-          </div>
-          
-          {/* Text Logo */}
-          {!collapsed && (
-            <div className="flex items-center">
-              <span className="text-white font-semibold text-xl tracking-tight">Ultimo</span>
-              <span className="text-white/70 font-semibold text-xl tracking-tight ml-1">Bots</span>
-            </div>
-          )}
-        </Link>
-        
-        {/* Collapse/Expand Button - Always visible */}
+    <div
+      className={cn(
+        "flex h-16 shrink-0 items-center border-b border-white/10",
+        collapsed ? "justify-center px-2" : "justify-between px-4"
+      )}
+    >
+      <Link
+        href="/"
+        className="flex items-center gap-2.5 rounded-field focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+      >
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[10px] bg-white text-lg font-bold text-brand-800 shadow-sm">
+          U
+        </span>
+        {!collapsed && (
+          <span className="text-[1.0625rem] font-semibold tracking-tight text-white">
+            Ultimo<span className="text-white/60">Bots</span>
+          </span>
+        )}
+      </Link>
+
+      {!collapsed && (
+        <div className="flex items-center">
+          {/* Desktop: collapse to rail */}
+          <button
+            type="button"
+            onClick={toggleCollapsed}
+            aria-label="Collapse sidebar"
+            className="hidden rounded-md p-1.5 text-white/60 transition-colors hover:bg-white/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white lg:block"
+          >
+            <PanelLeftClose className="h-[18px] w-[18px]" />
+          </button>
+
+          {/* Mobile: dismiss the drawer */}
+          <button
+            type="button"
+            onClick={() => setMobileOpen(false)}
+            aria-label="Close navigation"
+            className="rounded-md p-1.5 text-white/60 transition-colors hover:bg-white/10 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white lg:hidden"
+          >
+            <X className="h-[18px] w-[18px]" />
+          </button>
+        </div>
+      )}
+
+      {collapsed && (
         <button
-          onClick={() => setCollapsed(!collapsed)}
-          className={cn(
-            "p-1.5 rounded-md hover:bg-white/10 text-white/70 hover:text-white transition-all",
-            collapsed && "ml-0"
-          )}
+          type="button"
+          onClick={toggleCollapsed}
+          aria-label="Expand sidebar"
+          className="absolute -right-3 top-[1.375rem] hidden h-6 w-6 items-center justify-center rounded-full border border-border bg-card text-ink-500 shadow-card transition-colors hover:text-brand-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring lg:flex"
         >
-          {collapsed ? (
-            <ChevronRight className="h-4 w-4" />
-          ) : (
-            <ChevronLeft className="h-4 w-4" />
-          )}
+          <PanelLeftOpen className="h-3.5 w-3.5" />
         </button>
-      </div>
+      )}
     </div>
   );
 }

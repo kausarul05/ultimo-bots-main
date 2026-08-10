@@ -1,51 +1,39 @@
-"use client";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { AuthProvider } from "@/hooks/use-auth";
+import { SidebarProvider } from "@/components/layout/sidebar-context";
+import { RootShell } from "@/components/layout/root-shell";
 
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { Sidebar } from '@/components/layout/sidebar';
-import { AuthProvider } from '@/hooks/use-auth';
-import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
-import { useEffect, useState } from 'react';
+const inter = Inter({
+    subsets: ["latin"],
+    display: "swap",
+    variable: "--font-sans",
+});
 
-const inter = Inter({ subsets: ['latin'] });
+// The layout is a server component again now that the pathname-dependent chrome
+// lives in <RootShell />, which means the app can ship real metadata.
+export const metadata: Metadata = {
+    title: {
+        default: "Ultimo Bots — AI chatbots for your website",
+        template: "%s · Ultimo Bots",
+    },
+    description:
+        "Build AI chatbots that automate support, capture qualified leads and answer your customers 24/7.",
+};
 
 export default function RootLayout({
     children,
 }: {
     children: React.ReactNode;
 }) {
-    const pathname = usePathname();
-    const [isAuthPage, setIsAuthPage] = useState(false);
-
-    const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null); // Start with null
-
-    useEffect(() => {
-        // Check if user is authenticated
-        const auth = localStorage.getItem("isAuthenticated");
-        setIsAuthenticated(auth === "true");
-    }, []);
-
-    useEffect(() => {
-        // Check if current path is an auth page
-        const authPaths = ['/login', '/signup', '/forgot-password', '/reset-password'];
-        setIsAuthPage(authPaths.some(path => pathname?.includes(path)));
-    }, [pathname]);
-
     return (
-        <html lang="en">
-            <body className={inter.className}>
+        <html lang="en" className={inter.variable}>
+            <body className={`${inter.className} antialiased`}>
                 <AuthProvider>
-                    <div className="flex">
-                        {/* Only show sidebar on non-auth pages */}
-                        {!isAuthPage && <Sidebar />}
-                        <main className={cn(
-                            "flex-1 transition-all duration-300",
-                            !isAuthenticated &&  !isAuthPage? "ml-64" : ""
-                        )}>
-                            {children}
-                        </main>
-                    </div>
+                    <SidebarProvider>
+                        <RootShell>{children}</RootShell>
+                    </SidebarProvider>
                 </AuthProvider>
             </body>
         </html>
